@@ -1,0 +1,12 @@
+# Python environment for the generator
+venv/
+.venv/
+__pycache__/
+
+# Raw generator output. Only the compressed .ogg files are committed.
+*.wav
+*.WAV
+
+# Scratch
+tmp/
+*.log
