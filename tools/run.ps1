@@ -74,6 +74,6 @@ if (-not $DryRun) {
 }
 
 $mins = [math]::Round(((Get-Date) - $start).TotalMinutes, 1)
-Say "Total time: $mins min. Next: .\tools\push.ps1 to commit and push the clips."
+Say "Total time: $mins min. Next: powershell -ExecutionPolicy Bypass -File .\tools\push.ps1 to commit and push the clips."
 ($log -join "`n") | Set-Clipboard
 Write-Host '(summary copied to clipboard)'

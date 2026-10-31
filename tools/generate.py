@@ -400,7 +400,8 @@ def main():
     if a.teams: picked.add('teams')
     full_run = not picked and not a.limit
     if not picked:
-        picked = set(GROUPS) - {'names'}
+        # a -Limit listen test makes only the first N lines, not every reaction, number and team as well
+        picked = {'events', 'idle', 'tiers'} if a.limit else set(GROUPS) - {'names'}
     triggers = {x for x in picked if x not in GROUPS}
 
     def chosen(L):
@@ -585,7 +586,7 @@ def main():
         'tiers': {str(k): {'speed': v[0], 'gain_db': v[1]} for k, v in TIERS.items()},
         'slot_estimate_ms': SLOT_EST_MS,
         'lines': out_lines,
-        'names': keep('names', with_ext(names_map)), 'common': keep('common', with_ext(common_map)),
+        'names': {**old.get('names', {}), **with_ext(names_map)},  # names only come from -Names runs: never dropped by a full run 'common': keep('common', with_ext(common_map)),
         'reactions': keep('reactions', with_ext(react_map)), 'interjections': keep('interjections', with_ext(inter_map)),
     }
     man_path.parent.mkdir(parents=True, exist_ok=True)
@@ -594,7 +595,7 @@ def main():
     pruned = 0
     if full_run and not a.no_prune:  # only clips this generator made and that nothing points to any more
         live = {j['path'] for j in jobs} | {BLANK}
-        for stem in [k for k in hashes if k not in live]:
+        for stem in [k for k in hashes if k not in live and not k.startswith('names/')]:  # a full run never makes names
             for x in ('.ogg', '.wav'):
                 f = repo / (stem + x)
                 if f.exists(): f.unlink(); pruned += 1

@@ -9,7 +9,9 @@ $staged = git diff --cached --name-only
 if (-not $staged) { $msg = 'Nothing new to push.'; Write-Host $msg; $msg | Set-Clipboard; exit 0 }
 $count = ($staged | Measure-Object).Count
 git commit --quiet -m "Voice clips ($count files changed)" -m $sum
+if ($LASTEXITCODE -ne 0) { throw 'Commit failed (see above).' }
 git pull --quiet --rebase origin main
+if ($LASTEXITCODE -ne 0) { throw 'Pull failed (see above). Nothing was pushed. Fix: git rebase --abort, then run push.ps1 again.' }
 git push --quiet origin HEAD:main
 if ($LASTEXITCODE -ne 0) { throw 'Push failed (see above).' }
 $c = (git rev-parse --short HEAD).Trim()
