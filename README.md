@@ -11,6 +11,9 @@ Every clip is generated once, here, on Jordan's PC. The app never asks a voice e
 
 Kokoro does not pause at commas, so pacing never comes from punctuation. Every line has explicit pause marks (like `[pause:250]`). The generator makes one clip per piece and the app puts the chosen gaps between them. Silence at clip edges is trimmed.
 
+## Making the clips
+One PowerShell line on Jordan's PC, then `tools\push.ps1`. Details and options: `tools/README.md`.
+
 ## Folder layout
 | Folder | What goes in it |
 |---|---|
@@ -20,7 +23,7 @@ Kokoro does not pause at commas, so pacing never comes from punctuation. Every l
 | `reactions/corvus/`, `reactions/bastion/` | Short reactions to big moments |
 | `interjections/corvus/`, `interjections/bastion/` | Short cut-ins when the other character is talking |
 | `manifest/` | The JSON index the Voice Director reads (see `manifest/README.md`) |
-| `tools/` | The generator script (lands here later) |
+| `tools/` | The generator and the PowerShell scripts Jordan runs (see `tools/README.md`) |
 
 ## Clip format
 Commit **.ogg (Opus), mono, 48 kbps**. Do not commit `.wav`; the generator makes WAVs as a middle step and `.gitignore` blocks them. This keeps the repo small and the clips load fast on a phone.

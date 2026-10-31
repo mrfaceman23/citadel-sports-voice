@@ -1,0 +1,661 @@
+{
+ "version": 1,
+ "generator": "citadel-sports-voice tools/generate.py v1",
+ "engine": "kokoro-onnx",
+ "base": "../",
+ "voices": {
+  "corvus": {
+   "voice": "bm_fable",
+   "speed": 0.93
+  },
+  "bastion": {
+   "voice": "am_michael",
+   "speed": 1.1
+  }
+ },
+ "tiers": {
+  "1": {
+   "speed": 0.97,
+   "gain_db": 0.0
+  },
+  "2": {
+   "speed": 1.0,
+   "gain_db": 0.0
+  },
+  "3": {
+   "speed": 1.04,
+   "gain_db": 2.0
+  }
+ },
+ "slot_estimate_ms": 400,
+ "lines": [
+  {
+   "id": "td:corvus:t1:0",
+   "character": "corvus",
+   "text": "+Touchdown {team}. [pause:420] [overlap] {player} finishes the drive. [pause:420] {score}.",
+   "trigger": "td",
+   "group": "tiers",
+   "pieces": [
+    {
+     "file": "lines/corvus/td_t1_0__01.ogg",
+     "text": "Touchdown",
+     "sha": "d94f4501e3f7c558",
+     "ms": 722
+    },
+    {
+     "slot": "team"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/td_t1_0__03.ogg",
+     "text": "finishes the drive.",
+     "sha": "9cd2abde02e74c92",
+     "ms": 1820
+    },
+    {
+     "slot": "score"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    420,
+    0,
+    420,
+    0
+   ],
+   "intensity": 1,
+   "overlap_piece": 3,
+   "duration_ms": 4702,
+   "overlap_ms": 1602,
+   "sha": "5c28c5d29f73bb93"
+  },
+  {
+   "id": "td:bastion:t3:0",
+   "character": "bastion",
+   "text": "+TOUCHDOWN!! [pause:350] {player}!! [pause:350] THE LINE MOVED THE WHOLE PILE! [pause:350] {score}! [pause:350] SOMEBODY HOLD ME! [pause:350] *clang*",
+   "trigger": "td",
+   "group": "tiers",
+   "pieces": [
+    {
+     "file": "lines/bastion/td_t3_0__01.ogg",
+     "text": "TOUCHDOWN!!",
+     "sha": "c63cf3e300f6e325",
+     "ms": 775
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!!",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/bastion/td_t3_0__03.ogg",
+     "text": "THE LINE MOVED THE WHOLE PILE!",
+     "sha": "3dc882de3830f052",
+     "ms": 1570
+    },
+    {
+     "slot": "score"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/bastion/td_t3_0__05.ogg",
+     "text": "SOMEBODY HOLD ME!",
+     "sha": "6ad72f4c191c719b",
+     "ms": 1142
+    }
+   ],
+   "pauses": [
+    350,
+    0,
+    350,
+    350,
+    0,
+    350
+   ],
+   "intensity": 3,
+   "duration_ms": 5807,
+   "sha": "0f33ac02ae4a8d74"
+  },
+  {
+   "id": "sides:bastion:5",
+   "character": "bastion",
+   "text": "=I like {side}'s front, [pause:210] but Corvus is right: [pause:180] {rival} gets the ball out fast, [pause:210] [overlap] and that beats pressure.",
+   "trigger": "sides",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/bastion/sides_5__01.ogg",
+     "text": "I like",
+     "sha": "946681fbe3b325d7",
+     "ms": 372
+    },
+    {
+     "slot": "side"
+    },
+    {
+     "file": "lines/bastion/sides_5__02.ogg",
+     "text": "'s front,",
+     "sha": "2c952fd6c66007e8",
+     "ms": 438
+    },
+    {
+     "file": "lines/bastion/sides_5__03.ogg",
+     "text": "but Corvus is right:",
+     "sha": "ec6cf8dfa57291de",
+     "ms": 1212
+    },
+    {
+     "slot": "rival"
+    },
+    {
+     "file": "lines/bastion/sides_5__04.ogg",
+     "text": "gets the ball out fast,",
+     "sha": "86b53cadb34155c1",
+     "ms": 1328
+    },
+    {
+     "file": "lines/bastion/sides_5__05.ogg",
+     "text": "and that beats pressure.",
+     "sha": "ce589327c30996f0",
+     "ms": 1192
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    210,
+    180,
+    0,
+    210
+   ],
+   "intensity": 2,
+   "overlap_piece": 6,
+   "duration_ms": 5942,
+   "overlap_ms": 4750,
+   "sha": "def62e76a7d9881b"
+  },
+  {
+   "id": "sides:corvus:0",
+   "character": "corvus",
+   "text": "=I'll take {side}. [pause:420] They look like they have a plan for the third down, [pause:250] [overlap] and I respect a plan. [pause:350] *pushes glasses up*",
+   "trigger": "sides",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/corvus/sides_0__01.ogg",
+     "text": "I'll take",
+     "sha": "d05fba1a45a4b2c3",
+     "ms": 672
+    },
+    {
+     "slot": "side"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/corvus/sides_0__03.ogg",
+     "text": "They look like they have a plan for the third down,",
+     "sha": "5098ba955081f799",
+     "ms": 3095
+    },
+    {
+     "file": "lines/corvus/sides_0__04.ogg",
+     "text": "and I respect a plan.",
+     "sha": "eb3a32868aa9759b",
+     "ms": 2172
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    420,
+    250
+   ],
+   "intensity": 2,
+   "overlap_piece": 4,
+   "duration_ms": 7069,
+   "overlap_ms": 4897,
+   "sha": "8561271f06a37a4e"
+  },
+  {
+   "id": "idle_game:corvus:0",
+   "character": "corvus",
+   "text": "=@neutral {downDist} at {spot}. [pause:250] This is where the play sheet [overlap] earns its laminate.",
+   "trigger": "idle_game",
+   "group": "idle",
+   "pieces": [
+    {
+     "slot": "downDist"
+    },
+    {
+     "file": "lines/corvus/idle_game_0__01.ogg",
+     "text": "at",
+     "sha": "41b74bc4aba7932c",
+     "ms": 567
+    },
+    {
+     "slot": "spot"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/corvus/idle_game_0__03.ogg",
+     "text": "This is where the play sheet",
+     "sha": "3b18ac97d52ec2c8",
+     "ms": 1395
+    },
+    {
+     "file": "lines/corvus/idle_game_0__04.ogg",
+     "text": "earns its laminate.",
+     "sha": "95e2b52cb5eac371",
+     "ms": 1850
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    0,
+    250,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 5,
+   "duration_ms": 4922,
+   "overlap_ms": 3072,
+   "sha": "23e9f3ea26759b65"
+  },
+  {
+   "id": "idle_game:bastion:0",
+   "character": "bastion",
+   "text": "~@neutral {bigDown}! [pause:200] Everybody in the building knows it's a pass. [overlap] Go get him!",
+   "trigger": "idle_game",
+   "group": "idle",
+   "pieces": [
+    {
+     "slot": "bigDown"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/bastion/idle_game_0__02.ogg",
+     "text": "Everybody in the building knows it's a pass.",
+     "sha": "6ed09d185daec954",
+     "ms": 2178
+    },
+    {
+     "file": "lines/bastion/idle_game_0__03.ogg",
+     "text": "Go get him!",
+     "sha": "85df2f1693807a02",
+     "ms": 692
+    }
+   ],
+   "pauses": [
+    0,
+    200,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 3,
+   "duration_ms": 3530,
+   "overlap_ms": 2838,
+   "sha": "765689d97337dbd7"
+  },
+  {
+   "id": "td:corvus:0",
+   "character": "corvus",
+   "text": "+Touchdown {team}. [pause:420] {player} with the finish. [pause:420] Protection held, [pause:220] the route was open, [pause:220] [overlap] nobody guessed right. [pause:420] {score}.",
+   "trigger": "td",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/corvus/td_0__01.ogg",
+     "text": "Touchdown",
+     "sha": "74eabd4d0dde846e",
+     "ms": 698
+    },
+    {
+     "slot": "team"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/td_0__03.ogg",
+     "text": "with the finish.",
+     "sha": "55fdf6662c8dbfa3",
+     "ms": 1318
+    },
+    {
+     "file": "lines/corvus/td_0__04.ogg",
+     "text": "Protection held,",
+     "sha": "2320731be06ddc78",
+     "ms": 1500
+    },
+    {
+     "file": "lines/corvus/td_0__05.ogg",
+     "text": "the route was open,",
+     "sha": "1d213db22ad5d094",
+     "ms": 1662
+    },
+    {
+     "file": "lines/corvus/td_0__06.ogg",
+     "text": "nobody guessed right.",
+     "sha": "7e33ed9942bea5df",
+     "ms": 1850
+    },
+    {
+     "slot": "score"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    420,
+    0,
+    420,
+    220,
+    220,
+    420,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 7,
+   "duration_ms": 10048,
+   "overlap_ms": 7318,
+   "sha": "cb2e204efb494b69"
+  },
+  {
+   "id": "td:bastion:9",
+   "character": "bastion",
+   "text": "~{team} scores, [pause:180] {score}. [pause:380] Okay. [pause:380] Okay okay okay. [pause:380] Regroup. [pause:380] [overlap] The next stand starts now.",
+   "trigger": "td",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "team"
+    },
+    {
+     "file": "lines/bastion/td_9__01.ogg",
+     "text": "scores,",
+     "sha": "6b583bddb7bada36",
+     "ms": 690
+    },
+    {
+     "slot": "score"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/bastion/td_9__03.ogg",
+     "text": "Okay.",
+     "sha": "2104d6b2877d7d74",
+     "ms": 660
+    },
+    {
+     "file": "lines/bastion/td_9__04.ogg",
+     "text": "Okay okay okay.",
+     "sha": "1c5dab14501efbeb",
+     "ms": 1262
+    },
+    {
+     "file": "lines/bastion/td_9__05.ogg",
+     "text": "Regroup.",
+     "sha": "88b1db6c603a2fc5",
+     "ms": 690
+    },
+    {
+     "file": "lines/bastion/td_9__06.ogg",
+     "text": "The next stand starts now.",
+     "sha": "cd71d0fd69bf4582",
+     "ms": 1550
+    }
+   ],
+   "pauses": [
+    0,
+    180,
+    0,
+    380,
+    380,
+    380,
+    380
+   ],
+   "intensity": 2,
+   "overlap_piece": 7,
+   "duration_ms": 7412,
+   "overlap_ms": 5862,
+   "sha": "2933cefae3257eaf"
+  },
+  {
+   "id": "kickoff:corvus:2",
+   "character": "corvus",
+   "text": "=Ball is up. [pause:420] The first three drives show who sets up whom. [pause:560] [overlap] Bastion goes dramatic by the third.",
+   "trigger": "kickoff",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/corvus/kickoff_2__01.ogg",
+     "text": "The ball is up.",
+     "sha": "85157651cfc33dd9",
+     "ms": 1372
+    },
+    {
+     "file": "lines/corvus/kickoff_2__02.ogg",
+     "text": "The first three drives show who sets up whom.",
+     "sha": "c212c3ef3ce645a6",
+     "ms": 3342
+    },
+    {
+     "file": "lines/corvus/kickoff_2__03.ogg",
+     "text": "Bastion goes dramatic by the third.",
+     "sha": "71695b2ce07a350e",
+     "ms": 3015
+    }
+   ],
+   "pauses": [
+    420,
+    560
+   ],
+   "intensity": 2,
+   "overlap_piece": 2,
+   "duration_ms": 8709,
+   "overlap_ms": 5694,
+   "sha": "6dff19baaf106000"
+  },
+  {
+   "id": "final:bastion:t2:0",
+   "character": "bastion",
+   "text": "+FINAL! [pause:350] {team} wins, [pause:180] {score}! [pause:350] [overlap] The stops decided it!",
+   "trigger": "final",
+   "group": "tiers",
+   "pieces": [
+    {
+     "file": "lines/bastion/final_t2_0__01.ogg",
+     "text": "FINAL!",
+     "sha": "06767347159a0367",
+     "ms": 620
+    },
+    {
+     "slot": "team"
+    },
+    {
+     "file": "lines/bastion/final_t2_0__02.ogg",
+     "text": "wins,",
+     "sha": "6f2abb33238305d0",
+     "ms": 512
+    },
+    {
+     "slot": "score"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/bastion/final_t2_0__04.ogg",
+     "text": "The stops decided it!",
+     "sha": "1c7c9a0160997eb9",
+     "ms": 1272
+    }
+   ],
+   "pauses": [
+    350,
+    0,
+    180,
+    0,
+    350
+   ],
+   "intensity": 2,
+   "overlap_piece": 5,
+   "duration_ms": 4144,
+   "overlap_ms": 2872,
+   "sha": "c5d291a632b04843"
+  }
+ ],
+ "names": {
+  "josh-jacobs@corvus": "names/josh_jacobs_c.ogg",
+  "josh-jacobs@bastion": "names/josh_jacobs_b.ogg",
+  "josh-allen@corvus": "names/josh_allen_c.ogg",
+  "josh-allen@bastion": "names/josh_allen_b.ogg",
+  "ja-marr-chase@corvus": "names/ja_marr_chase_c.ogg",
+  "ja-marr-chase@bastion": "names/ja_marr_chase_b.ogg",
+  "amon-ra-st-brown@corvus": "names/amon_ra_st_brown_c.ogg",
+  "amon-ra-st-brown@bastion": "names/amon_ra_st_brown_b.ogg",
+  "kenneth-walker-iii@corvus": "names/kenneth_walker_iii_c.ogg",
+  "kenneth-walker-iii@bastion": "names/kenneth_walker_iii_b.ogg"
+ },
+ "common": {
+  "0@corvus": "common/num_0_c.ogg",
+  "0@bastion": "common/num_0_b.ogg",
+  "1@corvus": "common/num_1_c.ogg",
+  "1@bastion": "common/num_1_b.ogg",
+  "2@corvus": "common/num_2_c.ogg",
+  "2@bastion": "common/num_2_b.ogg",
+  "3@corvus": "common/num_3_c.ogg",
+  "3@bastion": "common/num_3_b.ogg",
+  "4@corvus": "common/num_4_c.ogg",
+  "4@bastion": "common/num_4_b.ogg",
+  "5@corvus": "common/num_5_c.ogg",
+  "5@bastion": "common/num_5_b.ogg",
+  "6@corvus": "common/num_6_c.ogg",
+  "6@bastion": "common/num_6_b.ogg",
+  "7@corvus": "common/num_7_c.ogg",
+  "7@bastion": "common/num_7_b.ogg",
+  "8@corvus": "common/num_8_c.ogg",
+  "8@bastion": "common/num_8_b.ogg",
+  "9@corvus": "common/num_9_c.ogg",
+  "9@bastion": "common/num_9_b.ogg",
+  "yard@corvus": "common/word_yard_c.ogg",
+  "yard@bastion": "common/word_yard_b.ogg",
+  "yards@corvus": "common/word_yards_c.ogg",
+  "yards@bastion": "common/word_yards_b.ogg",
+  "first-down@corvus": "common/word_first_down_c.ogg",
+  "first-down@bastion": "common/word_first_down_b.ogg",
+  "touchdown@corvus": "common/word_touchdown_c.ogg",
+  "touchdown@bastion": "common/word_touchdown_b.ogg",
+  "and@corvus": "common/word_and_c.ogg",
+  "and@bastion": "common/word_and_b.ogg"
+ },
+ "reactions": {
+  "b-roar-2": "reactions/bastion/b-roar-2.ogg",
+  "b-roar-3": "reactions/bastion/b-roar-3.ogg",
+  "b-laugh-1": "reactions/bastion/b-laugh-1.ogg",
+  "b-laugh-2": "reactions/bastion/b-laugh-2.ogg",
+  "b-laugh-3": "reactions/bastion/b-laugh-3.ogg",
+  "b-gasp-1": "reactions/bastion/b-gasp-1.ogg",
+  "b-gasp-2": "reactions/bastion/b-gasp-2.ogg",
+  "b-gasp-3": "reactions/bastion/b-gasp-3.ogg",
+  "b-oh-1": "reactions/bastion/b-oh-1.ogg",
+  "b-oh-2": "reactions/bastion/b-oh-2.ogg",
+  "b-oh-3": "reactions/bastion/b-oh-3.ogg",
+  "b-groan-2": "reactions/bastion/b-groan-2.ogg",
+  "c-hm-1": "reactions/corvus/c-hm-1.ogg",
+  "c-hm-2": "reactions/corvus/c-hm-2.ogg",
+  "c-chuckle-1": "reactions/corvus/c-chuckle-1.ogg",
+  "c-chuckle-2": "reactions/corvus/c-chuckle-2.ogg",
+  "c-chuckle-3": "reactions/corvus/c-chuckle-3.ogg",
+  "c-inhale-1": "reactions/corvus/c-inhale-1.ogg",
+  "c-inhale-2": "reactions/corvus/c-inhale-2.ogg",
+  "c-inhale-3": "reactions/corvus/c-inhale-3.ogg",
+  "c-well-1": "reactions/corvus/c-well-1.ogg",
+  "c-well-2": "reactions/corvus/c-well-2.ogg",
+  "c-oh-3": "reactions/corvus/c-oh-3.ogg",
+  "c-sigh-2": "reactions/corvus/c-sigh-2.ogg"
+ },
+ "interjections": {
+  "b-woah": "interjections/bastion/b-woah.ogg",
+  "b-woah-s": "interjections/bastion/b-woah-s.ogg",
+  "b-comeon": "interjections/bastion/b-comeon.ogg",
+  "b-ohnono": "interjections/bastion/b-ohnono.ogg",
+  "b-ohnono-s": "interjections/bastion/b-ohnono-s.ogg",
+  "b-ohh": "interjections/bastion/b-ohh.ogg",
+  "b-laugh": "interjections/bastion/b-laugh.ogg",
+  "b-yes": "interjections/bastion/b-yes.ogg",
+  "b-l-yeah": "interjections/bastion/b-l-yeah.ogg",
+  "b-l-mhm": "interjections/bastion/b-l-mhm.ogg",
+  "b-l-right": "interjections/bastion/b-l-right.ogg",
+  "c-mm": "interjections/corvus/c-mm.ogg",
+  "c-mm-s": "interjections/corvus/c-mm-s.ogg",
+  "c-well": "interjections/corvus/c-well.ogg",
+  "c-sure": "interjections/corvus/c-sure.ogg",
+  "c-hm": "interjections/corvus/c-hm.ogg",
+  "c-chuckle": "interjections/corvus/c-chuckle.ogg",
+  "c-chuckle-s": "interjections/corvus/c-chuckle-s.ogg",
+  "c-l-mhm": "interjections/corvus/c-l-mhm.ogg",
+  "c-l-right": "interjections/corvus/c-l-right.ogg",
+  "c-l-yeah": "interjections/corvus/c-l-yeah.ogg"
+ }
+}
