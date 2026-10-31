@@ -25,7 +25,7 @@ function Say($s) { Write-Host $s; $script:log += $s }
 
 # 1. tools we need
 foreach ($c in 'git', 'node') { if (-not (Get-Command $c -ErrorAction SilentlyContinue)) { throw "$c is not installed (needed to read booth-lines.js)." } }
-if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) { Say 'WARNING: ffmpeg not found. Clips will be .wav, not .ogg. Fix: winget install Gyan.FFmpeg  (then open a new PowerShell)' }
+if (-not $DryRun -and -not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) { throw 'ffmpeg not found, so the clips would be .wav (never committed). Fix: winget install Gyan.FFmpeg  (then open a new PowerShell and re-run).' }
 $py = Join-Path $Venv 'Scripts\python.exe'
 if (-not (Test-Path $py)) { throw "No Python venv at $Venv. Pass -Venv <folder>." }
 

@@ -3,6 +3,7 @@
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path -Parent $PSScriptRoot
 Set-Location $repo
+if (-not (Get-Command ffmpeg -ErrorAction SilentlyContinue)) { throw 'ffmpeg not found: these clips may be stale .wav runs. Install it (winget install Gyan.FFmpeg), re-run run.ps1, then push.' }
 $sum = if (Test-Path 'tmp\last-summary.txt') { (Get-Content 'tmp\last-summary.txt' -Raw).Trim() } else { 'Voice clips updated' }
 git add -A -- lines names common reactions interjections manifest
 $staged = git diff --cached --name-only

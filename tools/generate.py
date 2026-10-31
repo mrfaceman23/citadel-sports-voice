@@ -586,7 +586,8 @@ def main():
         'tiers': {str(k): {'speed': v[0], 'gain_db': v[1]} for k, v in TIERS.items()},
         'slot_estimate_ms': SLOT_EST_MS,
         'lines': out_lines,
-        'names': {**old.get('names', {}), **with_ext(names_map)},  # names only come from -Names runs: never dropped by a full run 'common': keep('common', with_ext(common_map)),
+        'names': {**old.get('names', {}), **with_ext(names_map)},  # names only come from -Names runs: never dropped by a full run
+        'common': keep('common', with_ext(common_map)),
         'reactions': keep('reactions', with_ext(react_map)), 'interjections': keep('interjections', with_ext(inter_map)),
     }
     man_path.parent.mkdir(parents=True, exist_ok=True)
