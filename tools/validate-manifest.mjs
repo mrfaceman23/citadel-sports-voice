@@ -15,7 +15,7 @@ const linesArg = args.includes('--lines') ? args[args.indexOf('--lines') + 1] : 
 const m = JSON.parse(readFileSync(path, 'utf8'));
 const errs = [], warns = [];
 const err = (s) => errs.push(s), warn = (s) => warns.push(s);
-const isClip = (f) => typeof f === 'string' && /^(lines|names|common|reactions|interjections)\/[a-z0-9_\-/]+\.(ogg|wav)$/.test(f);
+const isClip = (f) => typeof f === 'string' && /^(lines|names|common|vocab|reactions|interjections)\/[a-z0-9_\-/]+\.(ogg|wav)$/.test(f);
 const fileOk = (f, where) => { if (!isClip(f)) err(`${where}: bad clip path ${JSON.stringify(f)}`); else if (checkFiles && !existsSync(join(root, f))) err(`${where}: missing file ${f}`); };
 
 if (!Array.isArray(m.lines)) err('lines must be an array');
@@ -40,11 +40,11 @@ for (const e of m.lines || []) {
   if (typeof e.sha !== 'string' || !e.sha) err(`${w}: sha missing`);
   if (e.overlap_piece != null && !(e.overlap_piece >= 0 && e.overlap_piece <= e.pieces.length)) err(`${w}: overlap_piece out of range`);
 }
-for (const k of ['names', 'common', 'reactions', 'interjections']) {
+for (const k of ['names', 'common', 'vocab', 'reactions', 'interjections']) {
   const map = m[k] || {};
   if (typeof map !== 'object' || Array.isArray(map)) { err(`${k} must be an object`); continue; }
   for (const [key, f] of Object.entries(map)) {
-    if ((k === 'names' || k === 'common') && !/^[a-z0-9-]+(@(corvus|bastion))?$/.test(key)) err(`${k}.${key}: key must be a slug (voice-director slug()) with optional @corvus/@bastion`);
+    if ((k === 'names' || k === 'common' || k === 'vocab') && !/^[a-z0-9-]+(@(corvus|bastion))?$/.test(key)) err(`${k}.${key}: key must be a slug (voice-director slug()) with optional @corvus/@bastion`);
     fileOk(f, `${k}.${key}`);
   }
 }
@@ -82,7 +82,7 @@ if (linesArg) {
   console.log(`cross-checked ${checked} lines against booth-lines.js + voice-director.js`);
 }
 
-console.log(`${path}: ${(m.lines || []).length} lines, ${Object.keys(m.names || {}).length} names, ${Object.keys(m.common || {}).length} common, ${Object.keys(m.reactions || {}).length} reactions, ${Object.keys(m.interjections || {}).length} interjections`);
+console.log(`${path}: ${(m.lines || []).length} lines, ${Object.keys(m.names || {}).length} names, ${Object.keys(m.common || {}).length} common, ${Object.keys(m.vocab || {}).length} vocab, ${Object.keys(m.reactions || {}).length} reactions, ${Object.keys(m.interjections || {}).length} interjections`);
 warns.slice(0, 20).forEach(w => console.log('warn: ' + w));
 if (errs.length) { errs.slice(0, 50).forEach(e => console.log('ERROR: ' + e)); console.log(`${errs.length} error(s)`); process.exit(1); }
 console.log('manifest OK');

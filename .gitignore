@@ -10,3 +10,7 @@ __pycache__/
 # Scratch
 tmp/
 *.log
+
+# Jordan's Sleeper league ids and the roster made from them (never committed)
+tools/leagues.local.json
+roster.json

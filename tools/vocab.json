@@ -1,0 +1,20 @@
+{
+ "_about": "Fill-in words the booth says that are not numbers, teams or players. One clip per voice per entry, key = the Director's slug() of the text. Plain words only: no commas or periods (Kokoro ignores them for pacing; the Director adds the gaps). Sources: citadel-sports App/assets/booth2.js (flagName, flagKey, flagKind, parseShape LANE, memberName) and booth-lines.js (qtrWord, ordWord). Add a word here and re-run: only the new clips are made.",
+ "flags": [
+  "a flag", "false start", "offside", "defensive offside", "encroachment", "neutral zone infraction", "delay of game",
+  "illegal formation", "illegal shift", "illegal motion", "too many men on the field",
+  "holding", "offensive holding", "defensive holding",
+  "pass interference", "defensive pass interference", "offensive pass interference",
+  "roughing the passer", "unnecessary roughness", "face mask", "horse collar tackle", "personal foul", "targeting",
+  "unsportsmanlike conduct", "taunting", "intentional grounding", "ineligible downfield pass", "illegal contact",
+  "illegal use of hands", "illegal block in the back", "illegal forward pass", "roughing the kicker", "running into the kicker",
+  "tripping", "clipping", "chop block"
+ ],
+ "members": ["Lase", "Greatness"],
+ "depth": ["deep", "short"],
+ "dir": ["left", "right", "middle"],
+ "lane": ["up the middle", "around left end", "around right end", "off left tackle", "off right tackle", "behind the left guard", "behind the right guard"],
+ "pqtr": ["first quarter", "second quarter", "third quarter", "fourth quarter", "overtime", "game"],
+ "nth": ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"],
+ "words": ["to", "hundred", "quarter"]
+}

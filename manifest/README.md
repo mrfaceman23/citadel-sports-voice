@@ -13,12 +13,13 @@
   "lines": [ ... ],
   "names": { "josh-jacobs@corvus": "names/josh_jacobs_c.ogg", "josh-jacobs@bastion": "names/josh_jacobs_b.ogg" },
   "common": { "17@corvus": "common/num_17_c.ogg", "kansas-city@bastion": "common/team_kc_city_b.ogg" },
+  "vocab": { "false-start@corvus": "vocab/flags_false_start_c.ogg", "third-quarter@bastion": "vocab/pqtr_third_quarter_b.ogg" },
   "reactions": { "b-roar-2": "reactions/bastion/b-roar-2.ogg" },
   "interjections": { "b-woah": "interjections/bastion/b-woah.ogg" }
 }
 ```
 - `base`: clip paths are relative to the repo root; `"../"` means one folder up from `manifest/`. The Director resolves a relative base from where it loaded the manifest.
-- `names` / `common`: key = the Director's `slug()` of the fill-in value, plus `@corvus` or `@bastion` (one clip per voice). The Director tries the speaking voice's key first, then the plain slug.
+- `names` / `vocab` / `common`: key = the Director's `slug()` of the fill-in value, plus `@corvus` or `@bastion` (one clip per voice). The Director tries the speaking voice's key first, then the plain slug, looking in `names`, then `vocab`, then `common`. `vocab` holds the words in `tools/vocab.json` (flags, members, depth/dir/lane, quarters, ordinals, and "to" / "hundred" / "quarter" for stitching). A value with no clip of its own (`{score}` "Green Bay 27, Carolina 19") is built by the Director from these maps (citadel-sports `docs/voice-director.md`, "Stitched fill-ins").
 - `reactions` / `interjections`: keyed by the ids in `booth-lines.js`.
 
 ## One line entry

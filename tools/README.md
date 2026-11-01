@@ -8,7 +8,7 @@ cd A:\Citadel; if (!(Test-Path citadel-sports-voice)) { git clone https://github
 ```
 Then, when it says OK: `powershell -ExecutionPolicy Bypass -File .\tools\push.ps1`. Both copy their summary to the clipboard.
 
-Options for `run.ps1`: `-Only idle` (or `events`, `tiers`, `reactions`, `interjections`, `numbers`, `teams`, a trigger like `td`), `-Names roster.json`, `-Limit 10` (quick listen test), `-DryRun` (count only), `-Branch <citadel-sports branch>` (default `preview`; falls back to `voice-director` while preview does not have the speech-ready lines yet), `-Venv <folder>` (default `A:\Citadel\voice-test\venv`).
+Options for `run.ps1`: `-Only idle` (or `events`, `tiers`, `reactions`, `interjections`, `numbers`, `teams`, `vocab`, a trigger like `td`), `-Names roster.json`, `-Sleeper` (names from your Sleeper leagues; `-AllActive` adds every active QB/RB/WR/TE/K), `-Limit 10` (quick listen test), `-DryRun` (count only), `-Branch <citadel-sports branch>` (default `preview`; falls back to `voice-director` while preview does not have the speech-ready lines yet), `-Venv <folder>` (default `A:\Citadel\voice-test\venv`).
 
 Needs: the Kokoro venv (Kokoro 0.9.4, soundfile, numpy, espeak-ng), Node, git, and ffmpeg (`winget install Gyan.FFmpeg`; without it the clips stay .wav and are not committed). It uses the graphics card when the venv's PyTorch has CUDA; the first lines it prints say `on cuda` or `on cpu`.
 
@@ -18,6 +18,8 @@ Needs: the Kokoro venv (Kokoro 0.9.4, soundfile, numpy, espeak-ng), Node, git, a
 | `run.ps1` | Gets the latest `booth-lines.js` from citadel-sports, runs the generator, checks the manifest, copies a summary |
 | `push.ps1` | Commits the clips and manifest and pushes to `main` |
 | `generate.py` | The generator (Python: stdlib + kokoro + soundfile + numpy; ffmpeg for .ogg) |
+| `vocab.json` | The fill-in words for the `vocab` group (flags, members, depth/dir/lane, quarters, ordinals, to/hundred/quarter) |
+| `sleeper-roster.py` | Makes `tmp/roster.json` from the Sleeper leagues in `tools/leagues.local.json` (public API, stdlib Python; that file is never committed) |
 | `export-lines.mjs` | Reads `booth-lines.js` (its exports) and writes the JSON the generator uses |
 | `validate-manifest.mjs` | Checks `manifest/manifest.json`: schema, files exist (`--files`), and every line lines up with the Director (`--lines booth-lines.js`) |
 
@@ -34,12 +36,12 @@ Kokoro has no emotion control, so the three tiers are pace and volume only: tier
 ## Generate once
 Every clip has a hash of its text, carriers, voice, speed and tier (`manifest/hashes.json`). A re-run skips unchanged clips, copies a clip whose exact text already exists elsewhere, renders only new or changed ones, and (on a full run) removes clips it made earlier whose line is gone. Clips it did not make are never deleted.
 
-## Names, numbers, teams
-Each is made once per voice. Keys follow the Director's `slug()`: `josh-jacobs@corvus`, `17@bastion`, `kansas-city@corvus`, `the-chiefs@bastion`. Teams come from `TEAMS` in `booth-lines.js` (city, and "the" + nickname, which is what the booth says). The roster for `-Names` is `[{ "id": "...", "name": "Josh Jacobs", "team": "GB" }]`.
+## Names, numbers, teams, vocab
+Each is made once per voice. Keys follow the Director's `slug()`: `josh-jacobs@corvus`, `17@bastion`, `kansas-city@corvus`, `the-chiefs@bastion`. Teams come from `TEAMS` in `booth-lines.js` (city, and "the" + nickname, which is what the booth says). The roster for `-Names` is `[{ "id": "...", "name": "Josh Jacobs", "team": "GB" }]` (or let `-Sleeper` make it). Vocab words (`tools/vocab.json`) go to `vocab/<set>_<word>_c|b.ogg`, key `<slug>@<voice>` in the manifest's `vocab` map; like names and numbers, each is said inside "Then ... again." and cut out. `--dry-run` prints the new clips per folder and the vocab set sizes.
 
 ## Known rough spots
 - `{team}'s ...` (19 lines): the "'s" is cut from the end of the carrier, so it can sound clipped. Listen to these first.
-- Fill-ins like `{score}`, `{clock}`, `{downDist}` need clips the generator does not make yet (numbers 0-99 cover single numbers only). Lines whose fill-in has no clip are skipped for sound by the Director, never half-played.
+- `{score}`, `{scoreShort}` and number words are built by the Director from team and number clips (citadel-sports v10.1). `{clock}`, `{downDist}`, `{temp}`, `{need}` and other free-form fill-ins still have no clips; lines that use them are skipped for sound, never half-played. The Director's `citadelVoice.summary().missingTokens` shows which fill-ins still miss.
 
 ## Testing without the PyTorch model
 `--engine onnx --onnx-dir <folder with kokoro-v1.0.onnx and voices-v1.0.bin>` uses kokoro-onnx (same voices, no word timings, so carriers are cut by lining up the carrier word against the sentence). Only for test machines; Jordan's PC uses the normal Kokoro engine.
