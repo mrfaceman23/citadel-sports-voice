@@ -19,7 +19,7 @@
 }
 ```
 - `base`: clip paths are relative to the repo root; `"../"` means one folder up from `manifest/`. The Director resolves a relative base from where it loaded the manifest.
-- `names` / `vocab` / `common`: key = the Director's `slug()` of the fill-in value, plus `@corvus` or `@bastion` (one clip per voice). The Director tries the speaking voice's key first, then the plain slug, looking in `names`, then `vocab`, then `common`. `vocab` holds the words in `tools/vocab.json` (flags, members, depth/dir/lane, quarters, ordinals, and "to" / "hundred" / "quarter" for stitching). A value with no clip of its own (`{score}` "Green Bay 27, Carolina 19") is built by the Director from these maps (citadel-sports `docs/voice-director.md`, "Stitched fill-ins").
+- `names` / `vocab` / `common`: key = the Director's `slug()` of the fill-in value, plus `@corvus` or `@bastion` (one clip per voice). The Director tries the speaking voice's key first, then the plain slug, looking in `names`, then `vocab`, then `common`. `vocab` holds the words in `tools/vocab.json` (flags, members, depth/dir/lane, quarters, ordinals, and "to" / "hundred" / "quarter" for stitching; since v10.2 also the clock, down-and-distance, number, spot and score words, and the fixed word lists for positions, injury status, weather, field/roof, records and game slots). Vocab clips live under `vocab/` (the validator errors otherwise, and warns about any `vocab.json` word without a clip for both voices). A value with no clip of its own (`{score}` "Green Bay 27, Carolina 19") is built by the Director from these maps (citadel-sports `docs/voice-director.md`, "Stitched fill-ins").
 - `reactions` / `interjections`: keyed by the ids in `booth-lines.js`.
 
 ## One line entry

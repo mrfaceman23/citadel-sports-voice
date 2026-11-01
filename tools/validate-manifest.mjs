@@ -6,6 +6,7 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, resolve, join } from 'node:path';
 import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 
 const args = process.argv.slice(2);
 const path = resolve(args.find(a => !a.startsWith('--') && args[args.indexOf(a) - 1] !== '--lines') || 'manifest/manifest.json');
@@ -47,6 +48,17 @@ for (const k of ['names', 'common', 'vocab', 'reactions', 'interjections']) {
     if ((k === 'names' || k === 'common' || k === 'vocab') && !/^[a-z0-9-]+(@(corvus|bastion))?$/.test(key)) err(`${k}.${key}: key must be a slug (voice-director slug()) with optional @corvus/@bastion`);
     fileOk(f, `${k}.${key}`);
   }
+}
+// vocab (v10.2): every word in tools/vocab.json should have a clip per voice, under vocab/ (the Director's stitched
+// {clock}, {downDist}, records, {spot}... need them; a word with no clip makes those lines skip, so this is a warning)
+const slug = (v) => String(v ?? '').toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const vocabJson = join(dirname(fileURLToPath(import.meta.url)), 'vocab.json');
+if (existsSync(vocabJson)) {
+  const V = JSON.parse(readFileSync(vocabJson, 'utf8')), have = m.vocab || {}, need = new Set();
+  for (const [k, xs] of Object.entries(V)) if (!k.startsWith('_')) for (const t of xs) need.add(slug(t));
+  for (const [key, f] of Object.entries(have)) if (typeof f === 'string' && !f.startsWith('vocab/')) err(`vocab.${key}: clip must be under vocab/`);
+  const gaps = [...need].filter(k => !have[k + '@corvus'] || !have[k + '@bastion']);
+  if (gaps.length) warn(`${gaps.length} of ${need.size} vocab words have no clip for both voices yet (run.ps1 -Only vocab): ${gaps.slice(0, 8).join(', ')}${gaps.length > 8 ? ', ...' : ''}`);
 }
 
 function segments(pieces) { // copy of voice-director.js segments() (v9.4.0)
