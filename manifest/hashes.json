@@ -17179,6 +17179,38 @@
 "sha": "6c6ba4364bb317a9",
 "ms": 828
 },
+"vocab/clock_minute_b": {
+"sha": "943b82e8d6e1d768",
+"ms": 292
+},
+"vocab/clock_minute_c": {
+"sha": "8c24b525f9c4a2da",
+"ms": 792
+},
+"vocab/clock_minutes_b": {
+"sha": "555777ff76de4f4f",
+"ms": 375
+},
+"vocab/clock_minutes_c": {
+"sha": "44dc049f3008d6c0",
+"ms": 772
+},
+"vocab/clock_oh_b": {
+"sha": "4c4e77929e3dcd7e",
+"ms": 235
+},
+"vocab/clock_oh_c": {
+"sha": "59bf09a4a013a686",
+"ms": 518
+},
+"vocab/clock_seconds_b": {
+"sha": "f87048885ba238fb",
+"ms": 468
+},
+"vocab/clock_seconds_c": {
+"sha": "1f0ca3eb35c2b308",
+"ms": 570
+},
 "vocab/depth_deep_b": {
 "sha": "3fb429e7db90990f",
 "ms": 280
@@ -17218,6 +17250,22 @@
 "vocab/dir_right_c": {
 "sha": "6dc4dd14511b84ac",
 "ms": 350
+},
+"vocab/downs_and_goal_b": {
+"sha": "4cb3bdae6ec001cb",
+"ms": 472
+},
+"vocab/downs_and_goal_c": {
+"sha": "4ec51edbe8a4b500",
+"ms": 515
+},
+"vocab/downs_and_inches_b": {
+"sha": "c405d71fed6eadcf",
+"ms": 670
+},
+"vocab/downs_and_inches_c": {
+"sha": "54ffd5d03b710683",
+"ms": 710
 },
 "vocab/flags_a_flag_b": {
 "sha": "20fecfd7f4ebbbb5",
@@ -17507,6 +17555,22 @@
 "sha": "624f020cbaa397dc",
 "ms": 1540
 },
+"vocab/injury_on_injured_reserve_b": {
+"sha": "dd466b97b39e72af",
+"ms": 1148
+},
+"vocab/injury_on_injured_reserve_c": {
+"sha": "0d4845358f044076",
+"ms": 1050
+},
+"vocab/injury_out_b": {
+"sha": "9a5172aed2984f7a",
+"ms": 228
+},
+"vocab/injury_out_c": {
+"sha": "ebfab10b4ae7a3fd",
+"ms": 588
+},
 "vocab/lane_around_left_end_b": {
 "sha": "33b6e8cd2cd16e08",
 "ms": 960
@@ -17675,6 +17739,278 @@
 "sha": "ec42d584bbb7ca7c",
 "ms": 475
 },
+"vocab/numbers_a_half_b": {
+"sha": "c3ad5d9f33771dff",
+"ms": 440
+},
+"vocab/numbers_a_half_c": {
+"sha": "ecf8753d5811eca7",
+"ms": 472
+},
+"vocab/numbers_and_a_half_b": {
+"sha": "b9f74486159073b9",
+"ms": 550
+},
+"vocab/numbers_and_a_half_c": {
+"sha": "470f392f09ad252a",
+"ms": 542
+},
+"vocab/numbers_minus_b": {
+"sha": "e3bd6895efd21683",
+"ms": 443
+},
+"vocab/numbers_minus_c": {
+"sha": "30b940f3962f500f",
+"ms": 447
+},
+"vocab/numbers_point_b": {
+"sha": "b1203819e75a8303",
+"ms": 315
+},
+"vocab/numbers_point_c": {
+"sha": "75312c99a3078073",
+"ms": 708
+},
+"vocab/positions_center_b": {
+"sha": "2236efa787ab782a",
+"ms": 455
+},
+"vocab/positions_center_c": {
+"sha": "48ebe76c4bb8fbfa",
+"ms": 508
+},
+"vocab/positions_cornerback_b": {
+"sha": "e464457930ca3a77",
+"ms": 612
+},
+"vocab/positions_cornerback_c": {
+"sha": "049500bf7cf7d27c",
+"ms": 582
+},
+"vocab/positions_defensive_back_b": {
+"sha": "b97ccfcebc210013",
+"ms": 878
+},
+"vocab/positions_defensive_back_c": {
+"sha": "7b2c8e14f8b50927",
+"ms": 932
+},
+"vocab/positions_defensive_lineman_b": {
+"sha": "20ba914f057b8994",
+"ms": 998
+},
+"vocab/positions_defensive_lineman_c": {
+"sha": "795ef60f0f81d4c2",
+"ms": 1078
+},
+"vocab/positions_defensive_tackle_b": {
+"sha": "f6694126bbdb1dda",
+"ms": 1010
+},
+"vocab/positions_defensive_tackle_c": {
+"sha": "2f9eb334dd712ff2",
+"ms": 1185
+},
+"vocab/positions_edge_rusher_b": {
+"sha": "8f66eaeab9882057",
+"ms": 727
+},
+"vocab/positions_edge_rusher_c": {
+"sha": "2be72963ca1db9ec",
+"ms": 852
+},
+"vocab/positions_free_safety_b": {
+"sha": "db5b48bddcfb751d",
+"ms": 675
+},
+"vocab/positions_free_safety_c": {
+"sha": "f4eadc399f9dc278",
+"ms": 825
+},
+"vocab/positions_fullback_b": {
+"sha": "04166f0112d636a5",
+"ms": 528
+},
+"vocab/positions_fullback_c": {
+"sha": "cf2a0a90869ba622",
+"ms": 547
+},
+"vocab/positions_guard_b": {
+"sha": "bc8df78e7e1f3452",
+"ms": 322
+},
+"vocab/positions_guard_c": {
+"sha": "75ab5c1995431fd3",
+"ms": 358
+},
+"vocab/positions_inside_linebacker_b": {
+"sha": "c5270249e209b8ce",
+"ms": 1190
+},
+"vocab/positions_inside_linebacker_c": {
+"sha": "9aecde60d29a64f6",
+"ms": 1305
+},
+"vocab/positions_kicker_b": {
+"sha": "465445b66b18aed6",
+"ms": 317
+},
+"vocab/positions_kicker_c": {
+"sha": "fcbb70cf97bc3dce",
+"ms": 368
+},
+"vocab/positions_left_guard_b": {
+"sha": "25ba175f74062990",
+"ms": 632
+},
+"vocab/positions_left_guard_c": {
+"sha": "4bd9eba7217c2437",
+"ms": 722
+},
+"vocab/positions_left_tackle_b": {
+"sha": "9344b80e3d193410",
+"ms": 628
+},
+"vocab/positions_left_tackle_c": {
+"sha": "d73f093b234faefd",
+"ms": 820
+},
+"vocab/positions_linebacker_b": {
+"sha": "0f2409e77d668615",
+"ms": 665
+},
+"vocab/positions_linebacker_c": {
+"sha": "92c22ec32c17061d",
+"ms": 700
+},
+"vocab/positions_long_snapper_b": {
+"sha": "dde830e21a0b3e00",
+"ms": 730
+},
+"vocab/positions_long_snapper_c": {
+"sha": "45b3db3e197eb00b",
+"ms": 942
+},
+"vocab/positions_middle_linebacker_b": {
+"sha": "a2d1db9f0dfab4ad",
+"ms": 980
+},
+"vocab/positions_middle_linebacker_c": {
+"sha": "da0fd11069b21070",
+"ms": 1032
+},
+"vocab/positions_nose_tackle_b": {
+"sha": "ee1d3311013df208",
+"ms": 745
+},
+"vocab/positions_nose_tackle_c": {
+"sha": "02d2237fa9b75e59",
+"ms": 925
+},
+"vocab/positions_offensive_lineman_b": {
+"sha": "4ce09e0ec80b9aeb",
+"ms": 988
+},
+"vocab/positions_offensive_lineman_c": {
+"sha": "92b83c4baa3d0d29",
+"ms": 1040
+},
+"vocab/positions_outside_linebacker_b": {
+"sha": "2a09c87d99fdbccf",
+"ms": 1135
+},
+"vocab/positions_outside_linebacker_c": {
+"sha": "3a1e97f2f6075933",
+"ms": 1245
+},
+"vocab/positions_punter_b": {
+"sha": "cc742de5d831c077",
+"ms": 408
+},
+"vocab/positions_punter_c": {
+"sha": "ec166de9a831efff",
+"ms": 438
+},
+"vocab/positions_quarterback_b": {
+"sha": "323c69c3efddbee0",
+"ms": 590
+},
+"vocab/positions_quarterback_c": {
+"sha": "65ed3474eb39f75f",
+"ms": 605
+},
+"vocab/positions_right_guard_b": {
+"sha": "d31bfd927d5c591c",
+"ms": 620
+},
+"vocab/positions_right_guard_c": {
+"sha": "065f3bda50616d7e",
+"ms": 650
+},
+"vocab/positions_right_tackle_b": {
+"sha": "86b2a690e7737e7a",
+"ms": 658
+},
+"vocab/positions_right_tackle_c": {
+"sha": "d064b0c33c97c7ff",
+"ms": 765
+},
+"vocab/positions_running_back_b": {
+"sha": "7b96408b823bd315",
+"ms": 635
+},
+"vocab/positions_running_back_c": {
+"sha": "14b445c8b2c358ff",
+"ms": 600
+},
+"vocab/positions_safety_b": {
+"sha": "438bb13f095b62df",
+"ms": 452
+},
+"vocab/positions_safety_c": {
+"sha": "7b7dec2e3b2644e8",
+"ms": 522
+},
+"vocab/positions_starter_b": {
+"sha": "53dbe8eb43044367",
+"ms": 520
+},
+"vocab/positions_starter_c": {
+"sha": "a1abb0219166c7e1",
+"ms": 560
+},
+"vocab/positions_strong_safety_b": {
+"sha": "b1e95dcb53f9d5c0",
+"ms": 772
+},
+"vocab/positions_strong_safety_c": {
+"sha": "3349ba0cf892064b",
+"ms": 988
+},
+"vocab/positions_tackle_b": {
+"sha": "85384a90ac34ae61",
+"ms": 420
+},
+"vocab/positions_tackle_c": {
+"sha": "faf75c7f1f7baf40",
+"ms": 485
+},
+"vocab/positions_tight_end_b": {
+"sha": "c4c7917d3e6e7056",
+"ms": 610
+},
+"vocab/positions_tight_end_c": {
+"sha": "5ed47ee5a74accd1",
+"ms": 592
+},
+"vocab/positions_top_receiver_b": {
+"sha": "2b4d25fdde63d749",
+"ms": 860
+},
+"vocab/positions_top_receiver_c": {
+"sha": "a0b8ffe9fbea9be2",
+"ms": 898
+},
 "vocab/pqtr_first_quarter_b": {
 "sha": "b2faa29aa5037160",
 "ms": 770
@@ -17722,6 +18058,374 @@
 "vocab/pqtr_third_quarter_c": {
 "sha": "e6caeb04d9230f45",
 "ms": 752
+},
+"vocab/records_covered_b": {
+"sha": "e77084f909402557",
+"ms": 392
+},
+"vocab/records_covered_c": {
+"sha": "2596c6df76ef6131",
+"ms": 360
+},
+"vocab/records_failed_to_cover_b": {
+"sha": "74f7803e1e8cf031",
+"ms": 860
+},
+"vocab/records_failed_to_cover_c": {
+"sha": "bdff009521733ab0",
+"ms": 933
+},
+"vocab/records_lost_b": {
+"sha": "54f9984cb091b1c4",
+"ms": 402
+},
+"vocab/records_lost_c": {
+"sha": "01e2cc833ad21e86",
+"ms": 362
+},
+"vocab/records_won_b": {
+"sha": "ba56207aaab4943c",
+"ms": 270
+},
+"vocab/records_won_c": {
+"sha": "416d7c9f107e081a",
+"ms": 718
+},
+"vocab/scores_are_tied_at_b": {
+"sha": "a85f827af8809589",
+"ms": 715
+},
+"vocab/scores_are_tied_at_c": {
+"sha": "8e24ec0ccb9ca4ce",
+"ms": 680
+},
+"vocab/scores_beat_b": {
+"sha": "4b0cf756c5e7d495",
+"ms": 270
+},
+"vocab/scores_beat_c": {
+"sha": "3655507987483c04",
+"ms": 732
+},
+"vocab/scores_no_points_yet_b": {
+"sha": "fc410c94f9cee479",
+"ms": 882
+},
+"vocab/scores_no_points_yet_c": {
+"sha": "b5ca305efd8dd5ef",
+"ms": 1030
+},
+"vocab/scores_none_b": {
+"sha": "b556ada83ce6bdf0",
+"ms": 273
+},
+"vocab/scores_none_c": {
+"sha": "af5ae1412741cf1b",
+"ms": 795
+},
+"vocab/scores_points_on_b": {
+"sha": "ad6c5cad45f10d8d",
+"ms": 568
+},
+"vocab/scores_points_on_c": {
+"sha": "a3441ffefaf6e43b",
+"ms": 618
+},
+"vocab/scores_scoreless_b": {
+"sha": "9c4ce62a5e59b797",
+"ms": 550
+},
+"vocab/scores_scoreless_c": {
+"sha": "df4ee01fa392a9f1",
+"ms": 612
+},
+"vocab/scores_tied_at_b": {
+"sha": "039b69bede05f4e0",
+"ms": 500
+},
+"vocab/scores_tied_at_c": {
+"sha": "ebf4c971a10a71a1",
+"ms": 527
+},
+"vocab/scores_tied_b": {
+"sha": "b4be02a0ab948942",
+"ms": 335
+},
+"vocab/scores_tied_c": {
+"sha": "bcea629afe704be4",
+"ms": 405
+},
+"vocab/slots_early_sunday_games_b": {
+"sha": "eaff649e3948f3c1",
+"ms": 1150
+},
+"vocab/slots_early_sunday_games_c": {
+"sha": "e16b231774f1a751",
+"ms": 1248
+},
+"vocab/slots_fridays_b": {
+"sha": "7a953734f7730cd7",
+"ms": 592
+},
+"vocab/slots_fridays_c": {
+"sha": "e0cf636f5a6efa45",
+"ms": 683
+},
+"vocab/slots_late_sunday_games_b": {
+"sha": "d9e35cb5d150aef3",
+"ms": 1158
+},
+"vocab/slots_late_sunday_games_c": {
+"sha": "d44cb73d19e15d35",
+"ms": 1255
+},
+"vocab/slots_monday_nights_b": {
+"sha": "8533a6783a4232a6",
+"ms": 855
+},
+"vocab/slots_monday_nights_c": {
+"sha": "34025642ba0eebc6",
+"ms": 865
+},
+"vocab/slots_saturdays_b": {
+"sha": "fce8a911360aa289",
+"ms": 680
+},
+"vocab/slots_saturdays_c": {
+"sha": "6bf8ce9e766583e1",
+"ms": 707
+},
+"vocab/slots_sunday_nights_b": {
+"sha": "8e2629a417a8a91f",
+"ms": 855
+},
+"vocab/slots_sunday_nights_c": {
+"sha": "90f60ae5d45b9e7a",
+"ms": 912
+},
+"vocab/slots_thursday_nights_b": {
+"sha": "0c368e152b5462aa",
+"ms": 963
+},
+"vocab/slots_thursday_nights_c": {
+"sha": "2d47290adbc9fa54",
+"ms": 985
+},
+"vocab/slots_tuesdays_b": {
+"sha": "3f2e371639ea93ee",
+"ms": 645
+},
+"vocab/slots_tuesdays_c": {
+"sha": "4fb29e897b683c57",
+"ms": 762
+},
+"vocab/slots_wednesdays_b": {
+"sha": "0d71591e99ecbdfe",
+"ms": 670
+},
+"vocab/slots_wednesdays_c": {
+"sha": "748b6d7737b1351e",
+"ms": 698
+},
+"vocab/spot_its_own_b": {
+"sha": "9e087ab0556d7c1b",
+"ms": 572
+},
+"vocab/spot_its_own_c": {
+"sha": "7f99270a094d61b0",
+"ms": 485
+},
+"vocab/spot_midfield_b": {
+"sha": "b516c3a31de0f050",
+"ms": 588
+},
+"vocab/spot_midfield_c": {
+"sha": "7c19c9dac72a4e0a",
+"ms": 620
+},
+"vocab/spot_the_b": {
+"sha": "4120ab5555aa2462",
+"ms": 400
+},
+"vocab/spot_the_c": {
+"sha": "0d310d3f8cca66ab",
+"ms": 492
+},
+"vocab/stadium_artificial_turf_b": {
+"sha": "ac2518662e2235bc",
+"ms": 983
+},
+"vocab/stadium_artificial_turf_c": {
+"sha": "439af395316430af",
+"ms": 1042
+},
+"vocab/stadium_domed_b": {
+"sha": "1b37f1eac1d760c0",
+"ms": 408
+},
+"vocab/stadium_domed_c": {
+"sha": "16333ddc075e5056",
+"ms": 405
+},
+"vocab/stadium_hybrid_grass_b": {
+"sha": "771ac46062b72c9d",
+"ms": 905
+},
+"vocab/stadium_hybrid_grass_c": {
+"sha": "097e9d4bd4f6559d",
+"ms": 888
+},
+"vocab/stadium_natural_grass_b": {
+"sha": "3d45d0485f3b8358",
+"ms": 930
+},
+"vocab/stadium_natural_grass_c": {
+"sha": "639622bbf4345d7b",
+"ms": 935
+},
+"vocab/stadium_open_air_b": {
+"sha": "f2b33c6f6cfc9e71",
+"ms": 680
+},
+"vocab/stadium_open_air_c": {
+"sha": "663b29d60fe06f5e",
+"ms": 730
+},
+"vocab/stadium_retractable_roof_b": {
+"sha": "99b6797adb363671",
+"ms": 1065
+},
+"vocab/stadium_retractable_roof_c": {
+"sha": "e74c35545e7f16e5",
+"ms": 1102
+},
+"vocab/weather_clear_b": {
+"sha": "af04e64b159ba838",
+"ms": 312
+},
+"vocab/weather_clear_c": {
+"sha": "8ab4cfef8890584c",
+"ms": 402
+},
+"vocab/weather_cloudy_b": {
+"sha": "124de18e3f0b99d7",
+"ms": 345
+},
+"vocab/weather_cloudy_c": {
+"sha": "35de8d34bb9c6641",
+"ms": 420
+},
+"vocab/weather_drizzling_b": {
+"sha": "1bbfb8a49c775e08",
+"ms": 495
+},
+"vocab/weather_drizzling_c": {
+"sha": "e9314e441c82251b",
+"ms": 502
+},
+"vocab/weather_fog_b": {
+"sha": "cf115e3c7215df48",
+"ms": 400
+},
+"vocab/weather_fog_c": {
+"sha": "3d260fc786cf3277",
+"ms": 368
+},
+"vocab/weather_mostly_cloudy_b": {
+"sha": "f8c398cf079da694",
+"ms": 805
+},
+"vocab/weather_mostly_cloudy_c": {
+"sha": "c17a8e6e4194e8b4",
+"ms": 890
+},
+"vocab/weather_mostly_sunny_b": {
+"sha": "997c466aafcbb41d",
+"ms": 852
+},
+"vocab/weather_mostly_sunny_c": {
+"sha": "f527bfe8f4a4686a",
+"ms": 915
+},
+"vocab/weather_overcast_b": {
+"sha": "c02b4ba0e4da3d08",
+"ms": 675
+},
+"vocab/weather_overcast_c": {
+"sha": "9f7a9af111054987",
+"ms": 745
+},
+"vocab/weather_partly_cloudy_b": {
+"sha": "5473b253cc42af7a",
+"ms": 745
+},
+"vocab/weather_partly_cloudy_c": {
+"sha": "911cc869b7f4fe2d",
+"ms": 825
+},
+"vocab/weather_partly_sunny_b": {
+"sha": "7008449214526200",
+"ms": 787
+},
+"vocab/weather_partly_sunny_c": {
+"sha": "cc1c8e7bb4eabf95",
+"ms": 955
+},
+"vocab/weather_rain_b": {
+"sha": "dc7f07cca0bf41a9",
+"ms": 300
+},
+"vocab/weather_rain_c": {
+"sha": "393d4f8616dd492a",
+"ms": 645
+},
+"vocab/weather_raining_b": {
+"sha": "e923c805e664725f",
+"ms": 395
+},
+"vocab/weather_raining_c": {
+"sha": "788939afb363c54d",
+"ms": 400
+},
+"vocab/weather_showers_b": {
+"sha": "645669b24cdbd643",
+"ms": 523
+},
+"vocab/weather_showers_c": {
+"sha": "adaeefef5cd67de2",
+"ms": 530
+},
+"vocab/weather_snow_b": {
+"sha": "9482f3f7bff1487c",
+"ms": 398
+},
+"vocab/weather_snow_c": {
+"sha": "02d8d4b70df98f73",
+"ms": 455
+},
+"vocab/weather_snowing_b": {
+"sha": "8cbc0fb1bbdd652d",
+"ms": 465
+},
+"vocab/weather_snowing_c": {
+"sha": "b60b57555c6999d6",
+"ms": 532
+},
+"vocab/weather_storming_b": {
+"sha": "99a6f2f641a0a683",
+"ms": 525
+},
+"vocab/weather_storming_c": {
+"sha": "86d0d7dc9ef276c6",
+"ms": 557
+},
+"vocab/weather_sunny_b": {
+"sha": "cd4c02fa8c2e21ea",
+"ms": 440
+},
+"vocab/weather_sunny_c": {
+"sha": "05ef0e1efc34fa6a",
+"ms": 450
 },
 "vocab/words_hundred_b": {
 "sha": "74069b518bdfa5d5",
