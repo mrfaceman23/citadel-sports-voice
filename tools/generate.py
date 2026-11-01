@@ -11,6 +11,7 @@ Examples:
   python tools/generate.py --lines booth-lines.js --only idle                           # just the idle lines
   python tools/generate.py --lines booth-lines.js --names roster.json                   # just player names
   python tools/generate.py --lines booth-lines.js --numbers --teams                     # numbers and team names
+  python tools/generate.py --lines booth-lines.js --only vocab                          # flags, members, quarters... (tools/vocab.json)
   python tools/generate.py --lines booth-lines.js --dry-run                             # count only, render nothing
 
 Kokoro has no emotion control. Intensity tiers are pace and volume only (TIERS below): tier 1 (flat) 3% slower,
@@ -40,13 +41,27 @@ FADE_MS = 5
 SLOT_EST_MS = 400                  # duration_ms counts each fill-in as this long (real length depends on the name)
 BLANK = 'common/_blank'            # a short silence for punctuation-only pieces ("{score}.")
 ACRONYMS = {'NFL', 'AFC', 'NFC', 'TD', 'TDS', 'QB', 'QBS', 'OT', 'MVP', 'ATS', 'RPO', 'YAC', 'I', 'TV', 'OK'}
-GROUPS = ['events', 'idle', 'tiers', 'reactions', 'interjections', 'numbers', 'teams', 'names']
+GROUPS = ['events', 'idle', 'tiers', 'reactions', 'interjections', 'numbers', 'teams', 'vocab', 'names']
 COMMON_WORDS = ['yard', 'yards', 'first down', 'touchdown', 'and']
 
 
 def slug(v):  # same as voice-director.js slug()
     s = str('' if v is None else v).lower().replace('&', 'and')
     return re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+', '-', s))
+
+
+def load_vocab(p):
+    """tools/vocab.json -> {set: [text]}. Plain words only (Kokoro pause rule: pacing never comes from punctuation)."""
+    v = json.loads(Path(p).read_text(encoding='utf-8'))
+    out = {}
+    for k, xs in v.items():
+        if k.startswith('_'):
+            continue
+        for t in xs:
+            if re.search(r'[.,;:!?\[\]{}*]', t) or not slug(t):
+                sys.exit(f'vocab.json {k}: "{t}" must be plain words (no punctuation or marks)')
+        out[k] = list(dict.fromkeys(xs))
+    return out
 
 
 def sha(*parts):
@@ -381,6 +396,8 @@ def main():
     ap.add_argument('--names', metavar='ROSTER.json', help='render player names from [{id, name, team}]')
     ap.add_argument('--numbers', action='store_true', help='render 0-99 and yard / yards / first down / touchdown / and')
     ap.add_argument('--teams', action='store_true', help='render the 32 team cities and nicknames')
+    ap.add_argument('--vocab', metavar='VOCAB.json', default=str(Path(__file__).with_name('vocab.json')),
+                    help='fill-in words (flags, members, quarters, ordinals...) for the vocab group; default tools/vocab.json')
     ap.add_argument('--limit', type=int, default=0, help='only the first N lines (testing)')
     ap.add_argument('--numbers-max', type=int, default=99, help=argparse.SUPPRESS)
     ap.add_argument('--engine', choices=['kokoro', 'onnx'], default='kokoro')
@@ -409,6 +426,7 @@ def main():
 
     # ---- the plan: every manifest entry and every clip job
     entries, jobs, names_map, common_map, react_map, inter_map, sel_ids = [], [], {}, {}, {}, {}, set()
+    vocab_map, vocab_counts = {}, {}
     lines = data['lines'][:a.limit] if a.limit else data['lines']
     for L in lines:
         e, js = plan_line(L)
@@ -444,12 +462,20 @@ def main():
             if slug(t['city']) + '@corvus' not in common_map:
                 shared('common', f'team_{c}_city', slug(t['city']), t['city'])
             shared('common', f'team_{c}_nick', slug('the ' + t['nick']), 'the ' + t['nick'])
+    if 'vocab' in picked:  # vocab/<set>_<word>_c|b, key = slug (the Director looks in names, then vocab, then common)
+        for name, words in load_vocab(a.vocab).items():
+            vocab_counts[name] = len(words)
+            for w in words:
+                k = slug(w)
+                if f'{k}@corvus' in vocab_map:
+                    continue
+                shared('vocab', f"{name}_{k.replace('-', '_')}", k, w, target=vocab_map)
     if 'names' in picked:
         if not a.names:
             sys.exit('--only names needs --names roster.json')
         for r in json.loads(Path(a.names).read_text(encoding='utf-8')):
             k = slug(r['name'])
-            if not k or k in names_map:
+            if not k or f'{k}@corvus' in names_map:
                 continue
             shared('names', k.replace('-', '_'), k, r['name'], target=names_map)
 
@@ -482,6 +508,16 @@ def main():
             todo.append(j)
     est_words = sum(len((j['left'] + ' ' + j['text'] + ' ' + j['right']).split()) for j in todo)
     print(f'plan: {len(seen)} clips ({skip} unchanged, {len(reuse)} copied from identical text, {len(todo)} to render, ~{est_words} words)')
+    by_folder = {}
+    for j in todo + reuse:
+        f = j['path'].split('/')[0]
+        by_folder[f] = by_folder.get(f, 0) + 1
+    if by_folder:
+        print('new clips by folder: ' + ', '.join(f'{k} {v}' for k, v in sorted(by_folder.items())))
+    if vocab_counts:
+        print('vocab sets (words, x2 voices): ' + ', '.join(f'{k} {v}' for k, v in vocab_counts.items()) + f' = {len(vocab_map)} clips')
+    if 'names' in picked:
+        print(f'names: {len(names_map) // 2} players = {len(names_map)} clips')
     if a.dry_run:
         return
     if not have_ffmpeg:
@@ -588,6 +624,7 @@ def main():
         'lines': out_lines,
         'names': {**old.get('names', {}), **with_ext(names_map)},  # names only come from -Names runs: never dropped by a full run
         'common': keep('common', with_ext(common_map)),
+        'vocab': keep('vocab', with_ext(vocab_map)),
         'reactions': keep('reactions', with_ext(react_map)), 'interjections': keep('interjections', with_ext(inter_map)),
     }
     man_path.parent.mkdir(parents=True, exist_ok=True)
@@ -607,7 +644,7 @@ def main():
     rtf = f', {R.audio_s / el:.1f}x realtime' if R and el > 0 else ''
     fb = f' {R.fallbacks} fill-in pieces used a plain take (carrier cut looked wrong).' if R and R.fallbacks else ''
     summary = (f'Voice clips: {len(todo) - copied} rendered, {len(reuse) + copied} copied, {skip} unchanged, {pruned} removed.{fb} '
-               f'Manifest: {len(out_lines)} lines, {len(manifest["names"])} names, {len(manifest["common"])} common, '
+               f'Manifest: {len(out_lines)} lines, {len(manifest["names"])} names, {len(manifest["common"])} common, {len(manifest["vocab"])} vocab, '
                f'{len(manifest["reactions"])} reactions, {len(manifest["interjections"])} interjections. Took {el:.0f}s{rtf}.')
     print(summary)
     (repo / 'tmp').mkdir(exist_ok=True)

@@ -5,12 +5,16 @@
 #   .\tools\run.ps1                         everything (lines, tiers, reactions, interjections, numbers, teams)
 #   .\tools\run.ps1 -Only idle              just the idle lines (also: events, tiers, reactions, interjections, numbers, teams)
 #   .\tools\run.ps1 -Names roster.json      just player names, from [{ "id": "...", "name": "Josh Jacobs", "team": "GB" }]
+#   .\tools\run.ps1 -Sleeper                 just player names, roster made from the leagues in tools\leagues.local.json (-AllActive: every active QB/RB/WR/TE/K too)
+#   .\tools\run.ps1 -Only vocab              just the fill-in words in tools\vocab.json (flags, members, quarters, ordinals...)
 #   .\tools\run.ps1 -DryRun                 count what would be made, render nothing
 #   .\tools\run.ps1 -Limit 10               first 10 lines only (a quick listen test)
 param(
   [string]$Only = '',
   [string]$Names = '',
   [switch]$DryRun,
+  [switch]$Sleeper,
+  [switch]$AllActive,
   [int]$Limit = 0,
   [string]$Branch = 'preview',
   [string]$Venv = 'A:\Citadel\voice-test\venv'
@@ -55,18 +59,27 @@ if (-not (Get-Lines $Branch)) {
   if (-not (Get-Lines 'voice-director')) { throw 'Could not read booth-lines.js.' }
 }
 
-# 3. generate
+# 3. player names from Sleeper (public API, no login): tmp\roster.json, then a names-only run
+if ($Sleeper) {
+  $rosterArgs = @((Join-Path $PSScriptRoot 'sleeper-roster.py'), '--out', (Join-Path $tmp 'roster.json'))
+  if ($AllActive) { $rosterArgs += '--all-active' }
+  & $py -u @rosterArgs | ForEach-Object { Say $_ }
+  if ($LASTEXITCODE -ne 0) { throw 'sleeper-roster.py stopped (see above). First time: fill in tools\leagues.local.json and re-run.' }
+  $Names = Join-Path $tmp 'roster.json'
+}
+
+# 4. generate
 $genArgs = @((Join-Path $PSScriptRoot 'generate.py'), '--lines', $exportJson, '--repo', $repo)
 if ($Only) { $genArgs += @('--only', $Only) }
 if ($Names) { $genArgs += @('--names', (Resolve-Path $Names).Path) }
 if ($Limit -gt 0) { $genArgs += @('--limit', "$Limit") }
 if ($DryRun) { $genArgs += '--dry-run' }
-& $py @genArgs
+& $py -u @genArgs | ForEach-Object { if ($_ -match '^(plan|new clips|vocab sets|names):') { Say $_ } else { Write-Host $_ } }
 if ($LASTEXITCODE -ne 0) { throw 'generate.py failed (see above).' }
 $sumFile = Join-Path $tmp 'last-summary.txt'
 if (-not $DryRun -and (Test-Path $sumFile)) { Say (Get-Content $sumFile -Raw).Trim() }
 
-# 4. check the manifest
+# 5. check the manifest
 if (-not $DryRun) {
   $v = node (Join-Path $PSScriptRoot 'validate-manifest.mjs') (Join-Path $repo 'manifest\manifest.json') --files --lines $linesFile
   $v | ForEach-Object { Write-Host $_ }
