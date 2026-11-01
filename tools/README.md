@@ -18,10 +18,10 @@ Needs: the Kokoro venv (Kokoro 0.9.4, soundfile, numpy, espeak-ng), Node, git, a
 | `run.ps1` | Gets the latest `booth-lines.js` from citadel-sports, runs the generator, checks the manifest, copies a summary |
 | `push.ps1` | Commits the clips and manifest and pushes to `main` |
 | `generate.py` | The generator (Python: stdlib + kokoro + soundfile + numpy; ffmpeg for .ogg) |
-| `vocab.json` | The fill-in words for the `vocab` group (flags, members, depth/dir/lane, quarters, ordinals, to/hundred/quarter) |
+| `vocab.json` | The fill-in words for the `vocab` group (flags, members, depth/dir/lane, quarters, ordinals, to/hundred/quarter; v10.2: clock, downs, numbers, spot, scores, positions, injury, weather, stadium, records, slots) |
 | `sleeper-roster.py` | Makes `tmp/roster.json` from the Sleeper leagues in `tools/leagues.local.json` (public API, stdlib Python; that file is never committed) |
 | `export-lines.mjs` | Reads `booth-lines.js` (its exports) and writes the JSON the generator uses |
-| `validate-manifest.mjs` | Checks `manifest/manifest.json`: schema, files exist (`--files`), and every line lines up with the Director (`--lines booth-lines.js`) |
+| `validate-manifest.mjs` | Checks `manifest/manifest.json`: schema, files exist (`--files`), every line lines up with the Director (`--lines booth-lines.js`), and warns when a `vocab.json` word has no clip for both voices |
 
 ## How a line becomes clips
 1. `speechPieces(line)` from `booth-lines.js`. Text between marks is one clip, split exactly where the Voice Director splits it (at `[pause:ms]`, `{fill-ins}` and `[overlap]`; `*actions*` are never spoken).

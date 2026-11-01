@@ -1,20 +1,22 @@
 {
- "_about": "Fill-in words the booth says that are not numbers, teams or players. One clip per voice per entry, key = the Director's slug() of the text. Plain words only: no commas or periods (Kokoro ignores them for pacing; the Director adds the gaps). Sources: citadel-sports App/assets/booth2.js (flagName, flagKey, flagKind, parseShape LANE, memberName) and booth-lines.js (qtrWord, ordWord). Add a word here and re-run: only the new clips are made.",
- "flags": [
-  "a flag", "false start", "offside", "defensive offside", "encroachment", "neutral zone infraction", "delay of game",
-  "illegal formation", "illegal shift", "illegal motion", "too many men on the field",
-  "holding", "offensive holding", "defensive holding",
-  "pass interference", "defensive pass interference", "offensive pass interference",
-  "roughing the passer", "unnecessary roughness", "face mask", "horse collar tackle", "personal foul", "targeting",
-  "unsportsmanlike conduct", "taunting", "intentional grounding", "ineligible downfield pass", "illegal contact",
-  "illegal use of hands", "illegal block in the back", "illegal forward pass", "roughing the kicker", "running into the kicker",
-  "tripping", "clipping", "chop block"
- ],
+ "_about": "Fill-in words the booth says that are not numbers, teams or players. One clip per voice per entry, key = the Director's slug() of the text. Plain words only: no commas or periods (Kokoro ignores them for pacing; the Director adds the gaps). v10.2 adds the words the Director needs to stitch {clock} (minutes, seconds, oh), {downDist} (and goal, and inches), signed / decimal / half-point numbers, {spot}, {tiedAt}, {ogFinal}, and the closed word lists behind {posWord}, {status}, {sky}/{calmSky}/{wetWord}, {surface}, {roofWord}, {atsWord}, {streakWord}, {slotWord}, {toLeft}, {drScoreText}. Sources: citadel-sports App/assets/booth2.js (flagName, flagKey, flagKind, parseShape LANE, memberName) and booth-lines.js (qtrWord, ordWord). Add a word here and re-run: only the new clips are made.",
+ "flags": ["a flag", "false start", "offside", "defensive offside", "encroachment", "neutral zone infraction", "delay of game", "illegal formation", "illegal shift", "illegal motion", "too many men on the field", "holding", "offensive holding", "defensive holding", "pass interference", "defensive pass interference", "offensive pass interference", "roughing the passer", "unnecessary roughness", "face mask", "horse collar tackle", "personal foul", "targeting", "unsportsmanlike conduct", "taunting", "intentional grounding", "ineligible downfield pass", "illegal contact", "illegal use of hands", "illegal block in the back", "illegal forward pass", "roughing the kicker", "running into the kicker", "tripping", "clipping", "chop block"],
  "members": ["Lase", "Greatness"],
  "depth": ["deep", "short"],
  "dir": ["left", "right", "middle"],
  "lane": ["up the middle", "around left end", "around right end", "off left tackle", "off right tackle", "behind the left guard", "behind the right guard"],
  "pqtr": ["first quarter", "second quarter", "third quarter", "fourth quarter", "overtime", "game"],
  "nth": ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"],
- "words": ["to", "hundred", "quarter"]
+ "words": ["to", "hundred", "quarter"],
+ "clock": ["minute", "minutes", "second", "seconds", "oh"],
+ "downs": ["and goal", "and inches"],
+ "numbers": ["minus", "point", "and a half", "a half"],
+ "spot": ["its own", "midfield", "the"],
+ "scores": ["tied at", "scoreless", "beat", "tied", "are tied at", "points on", "no points yet", "none"],
+ "positions": ["quarterback", "running back", "fullback", "top receiver", "tight end", "left tackle", "right tackle", "left guard", "right guard", "guard", "tackle", "center", "offensive lineman", "edge rusher", "defensive tackle", "nose tackle", "defensive lineman", "linebacker", "inside linebacker", "outside linebacker", "middle linebacker", "cornerback", "safety", "free safety", "strong safety", "defensive back", "kicker", "punter", "long snapper", "starter"],
+ "injury": ["out", "on injured reserve"],
+ "weather": ["clear", "sunny", "mostly sunny", "partly sunny", "partly cloudy", "mostly cloudy", "cloudy", "overcast", "fog", "rain", "showers", "snow", "raining", "drizzling", "storming", "snowing"],
+ "stadium": ["natural grass", "artificial turf", "hybrid grass", "open air", "domed", "retractable roof"],
+ "records": ["covered", "failed to cover", "won", "lost"],
+ "slots": ["Thursday nights", "Monday nights", "Sunday nights", "early Sunday games", "late Sunday games", "Saturdays", "Fridays", "Tuesdays", "Wednesdays"]
 }
