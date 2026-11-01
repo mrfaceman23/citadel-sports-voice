@@ -1703,6 +1703,94 @@
 "sha": "32aa5854480ea1eb",
 "ms": 918
 },
+"lines/bastion/fantasy_swing_0__01": {
+"sha": "07fd0255def39fd0",
+"ms": 805
+},
+"lines/bastion/fantasy_swing_0__02": {
+"sha": "d8457f35a2e5cc11",
+"ms": 575
+},
+"lines/bastion/fantasy_swing_0__03": {
+"sha": "aefab4f6568d77ca",
+"ms": 685
+},
+"lines/bastion/fantasy_swing_1__02": {
+"sha": "b7ed71e2f706a249",
+"ms": 688
+},
+"lines/bastion/fantasy_swing_1__03": {
+"sha": "7ad5ec0e6e02f65e",
+"ms": 1065
+},
+"lines/bastion/fantasy_swing_2__01": {
+"sha": "f606da694bb237de",
+"ms": 662
+},
+"lines/bastion/fantasy_swing_2__03": {
+"sha": "cef8ec01bbcfe56e",
+"ms": 908
+},
+"lines/bastion/fantasy_swing_3__01": {
+"sha": "8fa7b2e974b973a0",
+"ms": 617
+},
+"lines/bastion/fantasy_swing_3__02": {
+"sha": "2e9bc545c975f493",
+"ms": 552
+},
+"lines/bastion/fantasy_swing_3__03": {
+"sha": "d4faf442e2b2f7ac",
+"ms": 1010
+},
+"lines/bastion/fantasy_swing_4__01": {
+"sha": "6305f888759d2e0c",
+"ms": 737
+},
+"lines/bastion/fantasy_swing_4__02": {
+"sha": "e94b76e1677a1fee",
+"ms": 630
+},
+"lines/bastion/fantasy_swing_4__03": {
+"sha": "adde014f92b5032a",
+"ms": 690
+},
+"lines/bastion/fantasy_swing_5__01": {
+"sha": "0b1bd69bc980b9db",
+"ms": 565
+},
+"lines/bastion/fantasy_swing_5__03": {
+"sha": "63360fb3dd0c9ae3",
+"ms": 385
+},
+"lines/bastion/fantasy_swing_5__04": {
+"sha": "9ca557011d55574f",
+"ms": 622
+},
+"lines/bastion/fantasy_swing_6__01": {
+"sha": "08c08324e7e9c85a",
+"ms": 1225
+},
+"lines/bastion/fantasy_swing_6__02": {
+"sha": "f1e456339aa27329",
+"ms": 502
+},
+"lines/bastion/fantasy_swing_7__01": {
+"sha": "19c456cd0d6a289d",
+"ms": 285
+},
+"lines/bastion/fantasy_swing_7__03": {
+"sha": "ee05c9b48f31b8c0",
+"ms": 492
+},
+"lines/bastion/fantasy_swing_7__04": {
+"sha": "f36fe3c3685d6a43",
+"ms": 1072
+},
+"lines/bastion/fantasy_swing_7__05": {
+"sha": "beff8c31510a9585",
+"ms": 580
+},
 "lines/bastion/fg_0__01": {
 "sha": "28e82550c7a310ff",
 "ms": 1500
@@ -8819,6 +8907,98 @@
 "sha": "f69e5d946701fcc9",
 "ms": 1798
 },
+"lines/corvus/fantasy_swing_0__01": {
+"sha": "6e27a2a3ca451c88",
+"ms": 895
+},
+"lines/corvus/fantasy_swing_0__02": {
+"sha": "8d82dee40f2a2363",
+"ms": 1888
+},
+"lines/corvus/fantasy_swing_0__03": {
+"sha": "55f1000904173969",
+"ms": 1217
+},
+"lines/corvus/fantasy_swing_0__04": {
+"sha": "a515d0e7d20070a2",
+"ms": 1730
+},
+"lines/corvus/fantasy_swing_1__01": {
+"sha": "877b8bc4856e30d3",
+"ms": 620
+},
+"lines/corvus/fantasy_swing_1__02": {
+"sha": "e1d4bccdced48631",
+"ms": 870
+},
+"lines/corvus/fantasy_swing_1__03": {
+"sha": "eb1aafe15fc20399",
+"ms": 2235
+},
+"lines/corvus/fantasy_swing_2__01": {
+"sha": "98a7b8b684a6ce8d",
+"ms": 1027
+},
+"lines/corvus/fantasy_swing_2__03": {
+"sha": "a072cbc799490ae9",
+"ms": 2062
+},
+"lines/corvus/fantasy_swing_2__04": {
+"sha": "5051d7842805802b",
+"ms": 1488
+},
+"lines/corvus/fantasy_swing_3__01": {
+"sha": "85d6cd3b8bb334e4",
+"ms": 565
+},
+"lines/corvus/fantasy_swing_3__03": {
+"sha": "65310f170eee703e",
+"ms": 2172
+},
+"lines/corvus/fantasy_swing_4__01": {
+"sha": "79657c0774ada509",
+"ms": 3035
+},
+"lines/corvus/fantasy_swing_4__02": {
+"sha": "c5500eae626efb54",
+"ms": 868
+},
+"lines/corvus/fantasy_swing_5__01": {
+"sha": "276e51af6e8325be",
+"ms": 1645
+},
+"lines/corvus/fantasy_swing_5__02": {
+"sha": "83b0093f9835074e",
+"ms": 828
+},
+"lines/corvus/fantasy_swing_5__03": {
+"sha": "95961bce7fe7a37e",
+"ms": 1275
+},
+"lines/corvus/fantasy_swing_6__01": {
+"sha": "59d1ad8b056baa80",
+"ms": 580
+},
+"lines/corvus/fantasy_swing_6__02": {
+"sha": "c69db8ccbf55c5f8",
+"ms": 1548
+},
+"lines/corvus/fantasy_swing_6__03": {
+"sha": "9f8b43694a5cbb44",
+"ms": 545
+},
+"lines/corvus/fantasy_swing_6__04": {
+"sha": "5b6324b252ae90bd",
+"ms": 1040
+},
+"lines/corvus/fantasy_swing_7__01": {
+"sha": "3e51215f36c6db18",
+"ms": 1508
+},
+"lines/corvus/fantasy_swing_7__03": {
+"sha": "a11074184b62d555",
+"ms": 2092
+},
 "lines/corvus/fg_0__01": {
 "sha": "30a4910b0147a22f",
 "ms": 962
@@ -15575,6 +15755,1334 @@
 "sha": "a1c81d6f4c2222f1",
 "ms": 1148
 },
+"names/a_j_brown_b": {
+"sha": "ccf16fb2dd043e71",
+"ms": 702
+},
+"names/a_j_brown_c": {
+"sha": "eebebbf1931af5ee",
+"ms": 1002
+},
+"names/aaron_jones_sr_b": {
+"sha": "01c02cd923b062e0",
+"ms": 1128
+},
+"names/aaron_jones_sr_c": {
+"sha": "68dd26e5725ff47e",
+"ms": 1528
+},
+"names/aaron_rodgers_b": {
+"sha": "cdfac86fb310d81f",
+"ms": 815
+},
+"names/aaron_rodgers_c": {
+"sha": "417723169c5d2329",
+"ms": 875
+},
+"names/amon_ra_st_brown_b": {
+"sha": "587eaf2674da1b2c",
+"ms": 1088
+},
+"names/amon_ra_st_brown_c": {
+"sha": "c3d917d9e910ade4",
+"ms": 1338
+},
+"names/ashton_jeanty_b": {
+"sha": "66385e43f0cbcb05",
+"ms": 860
+},
+"names/ashton_jeanty_c": {
+"sha": "4965f1e75559bb98",
+"ms": 885
+},
+"names/bhayshul_tuten_b": {
+"sha": "368aa51b18bce9d3",
+"ms": 782
+},
+"names/bhayshul_tuten_c": {
+"sha": "c7f9720772ee520a",
+"ms": 1012
+},
+"names/bijan_robinson_b": {
+"sha": "5a6c7562a1cb277a",
+"ms": 998
+},
+"names/bijan_robinson_c": {
+"sha": "96cd31e6678802fd",
+"ms": 940
+},
+"names/blake_corum_b": {
+"sha": "61cc3d0bb3a30535",
+"ms": 658
+},
+"names/blake_corum_c": {
+"sha": "da0738af0c4c925b",
+"ms": 805
+},
+"names/bo_nix_b": {
+"sha": "601753356e8399c1",
+"ms": 565
+},
+"names/bo_nix_c": {
+"sha": "778463f42bccf983",
+"ms": 678
+},
+"names/braelon_allen_b": {
+"sha": "79cf1f5026d56c1a",
+"ms": 788
+},
+"names/braelon_allen_c": {
+"sha": "21624510f6e2f904",
+"ms": 808
+},
+"names/brandon_aubrey_b": {
+"sha": "6e1607d268e2bb8c",
+"ms": 890
+},
+"names/brandon_aubrey_c": {
+"sha": "d467a660a4326b31",
+"ms": 888
+},
+"names/breece_hall_b": {
+"sha": "bacaf00de0137443",
+"ms": 655
+},
+"names/breece_hall_c": {
+"sha": "a157311d0f3d0b25",
+"ms": 687
+},
+"names/brenton_strange_b": {
+"sha": "37ff70889f02b220",
+"ms": 795
+},
+"names/brenton_strange_c": {
+"sha": "4bcfda9d4d0b444b",
+"ms": 1008
+},
+"names/brian_thomas_jr_b": {
+"sha": "bdfc7c78d99dfc2e",
+"ms": 1290
+},
+"names/brian_thomas_jr_c": {
+"sha": "41f5def384b80fe6",
+"ms": 1430
+},
+"names/brock_bowers_b": {
+"sha": "0d50eba9e29a38d8",
+"ms": 825
+},
+"names/brock_bowers_c": {
+"sha": "f377da3d4d4328b1",
+"ms": 827
+},
+"names/brock_purdy_b": {
+"sha": "82612c769219119c",
+"ms": 675
+},
+"names/brock_purdy_c": {
+"sha": "134cd9cc9ab10443",
+"ms": 785
+},
+"names/bryce_young_b": {
+"sha": "516d906099fdd6b5",
+"ms": 648
+},
+"names/bryce_young_c": {
+"sha": "f8cadc9d8446c7ac",
+"ms": 732
+},
+"names/bucky_irving_b": {
+"sha": "980e908c497c1473",
+"ms": 775
+},
+"names/bucky_irving_c": {
+"sha": "acc456532d4227fa",
+"ms": 775
+},
+"names/c_j_stroud_b": {
+"sha": "4be3279734cb6d9a",
+"ms": 848
+},
+"names/c_j_stroud_c": {
+"sha": "139212fb65764283",
+"ms": 1092
+},
+"names/caleb_williams_b": {
+"sha": "b9d59ed467801343",
+"ms": 925
+},
+"names/caleb_williams_c": {
+"sha": "e51b45ce53e22cd7",
+"ms": 988
+},
+"names/cam_little_b": {
+"sha": "66c7a55c58830c83",
+"ms": 597
+},
+"names/cam_little_c": {
+"sha": "23cff2481e113060",
+"ms": 640
+},
+"names/cam_skattebo_b": {
+"sha": "8e321fa587ca2db1",
+"ms": 875
+},
+"names/cam_skattebo_c": {
+"sha": "d39e7bd04c4e5e42",
+"ms": 1042
+},
+"names/carnell_tate_b": {
+"sha": "791cfce94e0e126a",
+"ms": 720
+},
+"names/carnell_tate_c": {
+"sha": "0312365e151c51a9",
+"ms": 792
+},
+"names/ceedee_lamb_b": {
+"sha": "c0f22dda72294274",
+"ms": 827
+},
+"names/ceedee_lamb_c": {
+"sha": "e803116ffdcb279d",
+"ms": 862
+},
+"names/chase_brown_b": {
+"sha": "5a86084c6d66d7a6",
+"ms": 638
+},
+"names/chase_brown_c": {
+"sha": "a7144b105f952e67",
+"ms": 850
+},
+"names/chris_boswell_b": {
+"sha": "7c0518543eba4b73",
+"ms": 865
+},
+"names/chris_boswell_c": {
+"sha": "a117dcd7b360e13f",
+"ms": 862
+},
+"names/chris_godwin_jr_b": {
+"sha": "d292eaa91e3c4fdc",
+"ms": 1212
+},
+"names/chris_godwin_jr_c": {
+"sha": "f27d23016e41fe30",
+"ms": 1445
+},
+"names/chris_olave_b": {
+"sha": "0842a79a7a1e5352",
+"ms": 782
+},
+"names/chris_olave_c": {
+"sha": "166f26bdaae9a249",
+"ms": 788
+},
+"names/chris_rodriguez_jr_b": {
+"sha": "a63a7272cacbea34",
+"ms": 1352
+},
+"names/chris_rodriguez_jr_c": {
+"sha": "6a4ebe280b45c30b",
+"ms": 1660
+},
+"names/christian_mccaffrey_b": {
+"sha": "bd7214332e3479f2",
+"ms": 1002
+},
+"names/christian_mccaffrey_c": {
+"sha": "7608b77f334b6e39",
+"ms": 1165
+},
+"names/christian_watson_b": {
+"sha": "f9d1c282e2ca3315",
+"ms": 858
+},
+"names/christian_watson_c": {
+"sha": "f20866253c842f92",
+"ms": 925
+},
+"names/chuba_hubbard_b": {
+"sha": "73374c0d26932c84",
+"ms": 860
+},
+"names/chuba_hubbard_c": {
+"sha": "80c799b095739be7",
+"ms": 788
+},
+"names/colston_loveland_b": {
+"sha": "334d8dd66b6caf28",
+"ms": 995
+},
+"names/colston_loveland_c": {
+"sha": "032db5317ee6307d",
+"ms": 985
+},
+"names/corey_kiner_b": {
+"sha": "d2d063c3c8d8dfb0",
+"ms": 762
+},
+"names/corey_kiner_c": {
+"sha": "60560cf4525ebea0",
+"ms": 768
+},
+"names/d_andre_swift_b": {
+"sha": "2d0b7063426fc1f8",
+"ms": 793
+},
+"names/d_andre_swift_c": {
+"sha": "84db55f0a6306280",
+"ms": 1010
+},
+"names/dak_prescott_b": {
+"sha": "6d4191e602196a8f",
+"ms": 762
+},
+"names/dak_prescott_c": {
+"sha": "bc69fdeb47ec9cb8",
+"ms": 822
+},
+"names/dallas_goedert_b": {
+"sha": "d0c0d5e91e941320",
+"ms": 858
+},
+"names/dallas_goedert_c": {
+"sha": "2fb3bf6a51efface",
+"ms": 862
+},
+"names/dalton_kincaid_b": {
+"sha": "9d2ba70cd319f943",
+"ms": 940
+},
+"names/dalton_kincaid_c": {
+"sha": "403a4403b863d8ed",
+"ms": 1118
+},
+"names/dameon_pierce_b": {
+"sha": "d02a6de665658a0b",
+"ms": 765
+},
+"names/dameon_pierce_c": {
+"sha": "ecf171a8c40680af",
+"ms": 880
+},
+"names/darius_cooper_b": {
+"sha": "bf2c99462358d4b6",
+"ms": 890
+},
+"names/darius_cooper_c": {
+"sha": "c6ea9e53c672bc80",
+"ms": 962
+},
+"names/davante_adams_b": {
+"sha": "6f4e857d8588fdaf",
+"ms": 1140
+},
+"names/davante_adams_c": {
+"sha": "9a2e9e0c44a95e86",
+"ms": 1185
+},
+"names/david_montgomery_b": {
+"sha": "9784ac200a48b5d5",
+"ms": 1110
+},
+"names/david_montgomery_c": {
+"sha": "4983a083004c99e6",
+"ms": 1155
+},
+"names/de_von_achane_b": {
+"sha": "86a9a0adf0976877",
+"ms": 792
+},
+"names/de_von_achane_c": {
+"sha": "ed21a6dce33270dc",
+"ms": 830
+},
+"names/deebo_samuel_sr_b": {
+"sha": "0df8aa9e79846cf9",
+"ms": 1248
+},
+"names/deebo_samuel_sr_c": {
+"sha": "07e4343ba02466be",
+"ms": 1575
+},
+"names/denzel_boston_b": {
+"sha": "9ab63d6dda672377",
+"ms": 872
+},
+"names/denzel_boston_c": {
+"sha": "a3e93a1bd5424382",
+"ms": 940
+},
+"names/derrick_henry_b": {
+"sha": "64d455418d5ed7d5",
+"ms": 790
+},
+"names/derrick_henry_c": {
+"sha": "595660478fc4f61b",
+"ms": 770
+},
+"names/devin_singletary_b": {
+"sha": "25cfe33dac03be08",
+"ms": 1075
+},
+"names/devin_singletary_c": {
+"sha": "10a697db18b2e39a",
+"ms": 1095
+},
+"names/devonta_smith_b": {
+"sha": "4a55b794d7ba4f9f",
+"ms": 915
+},
+"names/devonta_smith_c": {
+"sha": "e60ac43c76e770fb",
+"ms": 890
+},
+"names/dj_moore_b": {
+"sha": "005887fa3d976882",
+"ms": 760
+},
+"names/dj_moore_c": {
+"sha": "23b272f36e8bc667",
+"ms": 825
+},
+"names/dk_metcalf_b": {
+"sha": "da7367568e51e261",
+"ms": 938
+},
+"names/dk_metcalf_c": {
+"sha": "2e852f464d5ea998",
+"ms": 1010
+},
+"names/drake_london_b": {
+"sha": "3e05fa3d90ea9aaa",
+"ms": 680
+},
+"names/drake_london_c": {
+"sha": "b9840d9d6a52cee2",
+"ms": 752
+},
+"names/drake_maye_b": {
+"sha": "2c23d71cbcc3a4d8",
+"ms": 530
+},
+"names/drake_maye_c": {
+"sha": "6929aafea84b28bf",
+"ms": 630
+},
+"names/elic_ayomanor_b": {
+"sha": "9417c19887a36ea3",
+"ms": 1092
+},
+"names/elic_ayomanor_c": {
+"sha": "cf61b54c2204d3a9",
+"ms": 918
+},
+"names/elijah_mitchell_b": {
+"sha": "3a03b169e779c3f4",
+"ms": 850
+},
+"names/elijah_mitchell_c": {
+"sha": "d1c4fb39231ff904",
+"ms": 878
+},
+"names/emanuel_wilson_b": {
+"sha": "2bbe624e7061579e",
+"ms": 982
+},
+"names/emanuel_wilson_c": {
+"sha": "240b76b58c166c09",
+"ms": 995
+},
+"names/emeka_egbuka_b": {
+"sha": "a7452bc68191a1a5",
+"ms": 1072
+},
+"names/emeka_egbuka_c": {
+"sha": "349f0b3ad09deeea",
+"ms": 1130
+},
+"names/garrett_wilson_b": {
+"sha": "e495685f596573d1",
+"ms": 822
+},
+"names/garrett_wilson_c": {
+"sha": "10a2a66d07694be7",
+"ms": 820
+},
+"names/george_kittle_b": {
+"sha": "787e2a209acd35be",
+"ms": 760
+},
+"names/george_kittle_c": {
+"sha": "ddbd8f44f778dd56",
+"ms": 780
+},
+"names/george_pickens_b": {
+"sha": "289e8eb3af80085f",
+"ms": 915
+},
+"names/george_pickens_c": {
+"sha": "46d8c0a103dd0c79",
+"ms": 952
+},
+"names/germie_bernard_b": {
+"sha": "e635dd7ce69f9349",
+"ms": 965
+},
+"names/germie_bernard_c": {
+"sha": "0c3c226b239d1337",
+"ms": 873
+},
+"names/harold_fannin_jr_b": {
+"sha": "78b320aa60dffd52",
+"ms": 1300
+},
+"names/harold_fannin_jr_c": {
+"sha": "db136ff2f5773572",
+"ms": 1418
+},
+"names/hunter_henry_b": {
+"sha": "4bcfe2cbdf547dfa",
+"ms": 807
+},
+"names/hunter_henry_c": {
+"sha": "cb9d0a2b5e11351c",
+"ms": 832
+},
+"names/isaiah_likely_b": {
+"sha": "4f5f2f87c069336e",
+"ms": 865
+},
+"names/isaiah_likely_c": {
+"sha": "3138db8b7f1b1ef7",
+"ms": 953
+},
+"names/j_k_dobbins_b": {
+"sha": "5f2ba71e22a9a461",
+"ms": 922
+},
+"names/j_k_dobbins_c": {
+"sha": "3496f46086419f76",
+"ms": 1048
+},
+"names/ja_marr_chase_b": {
+"sha": "50aaa5ba067b37e4",
+"ms": 782
+},
+"names/ja_marr_chase_c": {
+"sha": "bb1df0853e87e626",
+"ms": 943
+},
+"names/jadarian_price_b": {
+"sha": "6e13c054c77bd387",
+"ms": 945
+},
+"names/jadarian_price_c": {
+"sha": "5429672e5b3658cd",
+"ms": 1035
+},
+"names/jahmyr_gibbs_b": {
+"sha": "1c28f8bd83a9ec5a",
+"ms": 768
+},
+"names/jahmyr_gibbs_c": {
+"sha": "b41dc859b150c5dc",
+"ms": 843
+},
+"names/jake_bates_b": {
+"sha": "ee173ce310e5e6ac",
+"ms": 700
+},
+"names/jake_bates_c": {
+"sha": "4dfdcc213b7027e3",
+"ms": 767
+},
+"names/jalen_coker_b": {
+"sha": "06aca5d4051df0c8",
+"ms": 785
+},
+"names/jalen_coker_c": {
+"sha": "3924f2bbd439d1d4",
+"ms": 948
+},
+"names/james_cook_iii_b": {
+"sha": "edad058073d45059",
+"ms": 1162
+},
+"names/james_cook_iii_c": {
+"sha": "c9d0931cbc70b682",
+"ms": 1468
+},
+"names/jameson_williams_b": {
+"sha": "53111c01de1088b2",
+"ms": 1020
+},
+"names/jameson_williams_c": {
+"sha": "ab7f3a74abbb8579",
+"ms": 1022
+},
+"names/jared_goff_b": {
+"sha": "00409e6dc34c6dad",
+"ms": 710
+},
+"names/jared_goff_c": {
+"sha": "5b7398e5970c87eb",
+"ms": 710
+},
+"names/jason_myers_b": {
+"sha": "6b82b2793eb383e5",
+"ms": 975
+},
+"names/jason_myers_c": {
+"sha": "730efd4bb9c6533d",
+"ms": 872
+},
+"names/javonte_williams_b": {
+"sha": "e737cab70029e9c7",
+"ms": 985
+},
+"names/javonte_williams_c": {
+"sha": "f513905d003ecbac",
+"ms": 968
+},
+"names/jaxon_smith_njigba_b": {
+"sha": "e80a4b6912b8245a",
+"ms": 1300
+},
+"names/jaxon_smith_njigba_c": {
+"sha": "882db562d29e5649",
+"ms": 1562
+},
+"names/jaxson_dart_b": {
+"sha": "df3dff5d7f54753e",
+"ms": 810
+},
+"names/jaxson_dart_c": {
+"sha": "ee7127dc73b7ac24",
+"ms": 800
+},
+"names/jayden_daniels_b": {
+"sha": "ce7d8924b3524386",
+"ms": 958
+},
+"names/jayden_daniels_c": {
+"sha": "ed36e388042e9dab",
+"ms": 948
+},
+"names/jaylen_waddle_b": {
+"sha": "6847ba6608e0ab95",
+"ms": 845
+},
+"names/jaylen_waddle_c": {
+"sha": "f0003168e6631ae8",
+"ms": 862
+},
+"names/jaylen_warren_b": {
+"sha": "2dd5d0b18c1ffe77",
+"ms": 770
+},
+"names/jaylen_warren_c": {
+"sha": "5dedc559d72baeab",
+"ms": 800
+},
+"names/jeremiyah_love_b": {
+"sha": "ba83c3c73672c2a7",
+"ms": 992
+},
+"names/jeremiyah_love_c": {
+"sha": "d996bfb7730d82a1",
+"ms": 975
+},
+"names/joe_burrow_b": {
+"sha": "45ee8a7e6e4dc57e",
+"ms": 670
+},
+"names/joe_burrow_c": {
+"sha": "1a06d3e640d3aa98",
+"ms": 680
+},
+"names/jonah_coleman_b": {
+"sha": "4cdb54064f2b313f",
+"ms": 775
+},
+"names/jonah_coleman_c": {
+"sha": "1a661522f9a9369b",
+"ms": 785
+},
+"names/jonathan_taylor_b": {
+"sha": "1e80ca788310db05",
+"ms": 985
+},
+"names/jonathan_taylor_c": {
+"sha": "a182e57c3a019e91",
+"ms": 918
+},
+"names/jordan_addison_b": {
+"sha": "4c19bf0274d92c45",
+"ms": 922
+},
+"names/jordan_addison_c": {
+"sha": "a1f2766c93d83484",
+"ms": 950
+},
+"names/jordan_love_b": {
+"sha": "db262100acf4b588",
+"ms": 765
+},
+"names/jordan_love_c": {
+"sha": "6f0ad8a7d1d62a93",
+"ms": 772
+},
+"names/jordan_mason_b": {
+"sha": "9806193dae5b6a49",
+"ms": 845
+},
+"names/jordan_mason_c": {
+"sha": "d8a4be92d797747a",
+"ms": 908
+},
+"names/josh_allen_b": {
+"sha": "1a33bba7e0117a09",
+"ms": 680
+},
+"names/josh_allen_c": {
+"sha": "67ca59b933f345a7",
+"ms": 710
+},
+"names/josh_downs_b": {
+"sha": "e09a1e645776d630",
+"ms": 690
+},
+"names/josh_downs_c": {
+"sha": "b05c40e8352857c1",
+"ms": 805
+},
+"names/josh_jacobs_b": {
+"sha": "eb39c0a30f36b0a7",
+"ms": 818
+},
+"names/josh_jacobs_c": {
+"sha": "c64fadb20c75731b",
+"ms": 955
+},
+"names/justin_herbert_b": {
+"sha": "2bfecced8cd092d8",
+"ms": 865
+},
+"names/justin_herbert_c": {
+"sha": "3ada4e5149d14e12",
+"ms": 850
+},
+"names/justin_jefferson_b": {
+"sha": "9f849905428ec75a",
+"ms": 1045
+},
+"names/justin_jefferson_c": {
+"sha": "0c693947dc15d728",
+"ms": 1050
+},
+"names/juwan_johnson_b": {
+"sha": "50992e3970062c34",
+"ms": 850
+},
+"names/juwan_johnson_c": {
+"sha": "7b5a5042c6004d31",
+"ms": 940
+},
+"names/ka_imi_fairbairn_b": {
+"sha": "f30fd4f6b462b208",
+"ms": 892
+},
+"names/ka_imi_fairbairn_c": {
+"sha": "3193fdd8dbdf3179",
+"ms": 1072
+},
+"names/kc_concepcion_jr_b": {
+"sha": "02dd7cb069edf184",
+"ms": 1500
+},
+"names/kc_concepcion_jr_c": {
+"sha": "a5df4f4a5f8dba02",
+"ms": 1758
+},
+"names/kenneth_walker_iii_b": {
+"sha": "3eb26d7a1fa254af",
+"ms": 1365
+},
+"names/kenneth_walker_iii_c": {
+"sha": "6328c2fe8d0ef975",
+"ms": 1638
+},
+"names/kenny_gainwell_b": {
+"sha": "36ec9a52b6a90fb2",
+"ms": 885
+},
+"names/kenny_gainwell_c": {
+"sha": "5f9dfb59ccf2362e",
+"ms": 870
+},
+"names/keon_coleman_b": {
+"sha": "d53afd531495d162",
+"ms": 820
+},
+"names/keon_coleman_c": {
+"sha": "20db7c72b45199f6",
+"ms": 928
+},
+"names/khalil_shakir_b": {
+"sha": "7a23d4d096bfceb1",
+"ms": 817
+},
+"names/khalil_shakir_c": {
+"sha": "f512b640fda4f66d",
+"ms": 1025
+},
+"names/kimani_vidal_b": {
+"sha": "4c46aa4d2b0b149c",
+"ms": 832
+},
+"names/kimani_vidal_c": {
+"sha": "a8f4b520734baa54",
+"ms": 910
+},
+"names/kirk_cousins_b": {
+"sha": "3c831e71664c2241",
+"ms": 775
+},
+"names/kirk_cousins_c": {
+"sha": "f501f33c1069beb7",
+"ms": 802
+},
+"names/kyle_monangai_b": {
+"sha": "da55f79974da21d3",
+"ms": 1012
+},
+"names/kyle_monangai_c": {
+"sha": "5e8bdb3a9f85cd25",
+"ms": 972
+},
+"names/kyle_pitts_sr_b": {
+"sha": "88fe1a9c399170b7",
+"ms": 1098
+},
+"names/kyle_pitts_sr_c": {
+"sha": "73efe5da57b8321d",
+"ms": 1298
+},
+"names/kyle_williams_b": {
+"sha": "5059fa5758183468",
+"ms": 872
+},
+"names/kyle_williams_c": {
+"sha": "32c6a4e281397b25",
+"ms": 935
+},
+"names/kyren_williams_b": {
+"sha": "2a6a4157015e87fd",
+"ms": 872
+},
+"names/kyren_williams_c": {
+"sha": "165427569aa66592",
+"ms": 877
+},
+"names/ladd_mcconkey_b": {
+"sha": "1b66e5d2f4175b7c",
+"ms": 823
+},
+"names/ladd_mcconkey_c": {
+"sha": "ee80f548106243d7",
+"ms": 830
+},
+"names/lamar_jackson_b": {
+"sha": "280b973f2e08a5a3",
+"ms": 873
+},
+"names/lamar_jackson_c": {
+"sha": "820c48eb7b6f079d",
+"ms": 1032
+},
+"names/luther_burden_iii_b": {
+"sha": "7a7169bccaf8310c",
+"ms": 1405
+},
+"names/luther_burden_iii_c": {
+"sha": "5205618e845ffb3d",
+"ms": 1542
+},
+"names/makai_lemon_b": {
+"sha": "38dbd10848e921b0",
+"ms": 813
+},
+"names/makai_lemon_c": {
+"sha": "bcda63d243bfd835",
+"ms": 830
+},
+"names/malik_nabers_b": {
+"sha": "3e084ec23938dd4c",
+"ms": 912
+},
+"names/malik_nabers_c": {
+"sha": "959a46c218b442f2",
+"ms": 872
+},
+"names/mark_andrews_b": {
+"sha": "bad74d20d819c203",
+"ms": 838
+},
+"names/mark_andrews_c": {
+"sha": "9640010d4cc25f00",
+"ms": 868
+},
+"names/marshawn_lloyd_b": {
+"sha": "41b95fc8ea3eb3cb",
+"ms": 875
+},
+"names/marshawn_lloyd_c": {
+"sha": "21af6f38736817f5",
+"ms": 898
+},
+"names/mason_taylor_b": {
+"sha": "c54893764c38c0dc",
+"ms": 942
+},
+"names/mason_taylor_c": {
+"sha": "abd2ca17506c94ca",
+"ms": 878
+},
+"names/matt_gay_b": {
+"sha": "22dda74efa5a923d",
+"ms": 500
+},
+"names/matt_gay_c": {
+"sha": "8b0b9dd8524457bb",
+"ms": 538
+},
+"names/matthew_golden_b": {
+"sha": "512e87b79770cfff",
+"ms": 815
+},
+"names/matthew_golden_c": {
+"sha": "beb17739c21d594a",
+"ms": 978
+},
+"names/matthew_stafford_b": {
+"sha": "3ee4403c6ecd67be",
+"ms": 865
+},
+"names/matthew_stafford_c": {
+"sha": "36dd02653a0dabf2",
+"ms": 1058
+},
+"names/michael_wilson_b": {
+"sha": "04cfe1de6b44637f",
+"ms": 860
+},
+"names/michael_wilson_c": {
+"sha": "49c9f245284a8811",
+"ms": 872
+},
+"names/mike_evans_b": {
+"sha": "baf18575ce62f616",
+"ms": 782
+},
+"names/mike_evans_c": {
+"sha": "6af9cec463b42c59",
+"ms": 808
+},
+"names/mike_gesicki_b": {
+"sha": "b7c50c93181cd730",
+"ms": 680
+},
+"names/mike_gesicki_c": {
+"sha": "5f8b37e381013e69",
+"ms": 808
+},
+"names/nick_folk_b": {
+"sha": "7d50a0a416782e88",
+"ms": 530
+},
+"names/nick_folk_c": {
+"sha": "bf7fa9d781c7572d",
+"ms": 702
+},
+"names/nico_collins_b": {
+"sha": "8e73b9e112d519c5",
+"ms": 860
+},
+"names/nico_collins_c": {
+"sha": "3f7eaef1e8db1a1b",
+"ms": 948
+},
+"names/ollie_gordon_ii_b": {
+"sha": "55f73d2623a6381c",
+"ms": 1292
+},
+"names/ollie_gordon_ii_c": {
+"sha": "91d2a41e902f7b71",
+"ms": 1342
+},
+"names/omar_cooper_jr_b": {
+"sha": "c4bbb272a268468f",
+"ms": 1190
+},
+"names/omar_cooper_jr_c": {
+"sha": "c0cfda80b944dd17",
+"ms": 1378
+},
+"names/omarion_hampton_b": {
+"sha": "e9ba6e5f5332503f",
+"ms": 972
+},
+"names/omarion_hampton_c": {
+"sha": "7cdaeebb582eb4d4",
+"ms": 1045
+},
+"names/parker_washington_b": {
+"sha": "beffb128d65242de",
+"ms": 1010
+},
+"names/parker_washington_c": {
+"sha": "5a519cf43ba64024",
+"ms": 1182
+},
+"names/pat_freiermuth_b": {
+"sha": "0329082dd7356f3e",
+"ms": 857
+},
+"names/pat_freiermuth_c": {
+"sha": "a56712bc8d5261fe",
+"ms": 855
+},
+"names/patrick_mahomes_b": {
+"sha": "024dc5a2bbf1375e",
+"ms": 995
+},
+"names/patrick_mahomes_c": {
+"sha": "a029c8c9f2355737",
+"ms": 995
+},
+"names/puka_nacua_b": {
+"sha": "e2a63bd8ebeae173",
+"ms": 825
+},
+"names/puka_nacua_c": {
+"sha": "6094e2f94f3b5baa",
+"ms": 998
+},
+"names/quentin_johnston_b": {
+"sha": "b265dc84d3d08af1",
+"ms": 938
+},
+"names/quentin_johnston_c": {
+"sha": "8055adbefa8c3ef8",
+"ms": 1048
+},
+"names/quinshon_judkins_b": {
+"sha": "f2dbc92561cd6651",
+"ms": 1118
+},
+"names/quinshon_judkins_c": {
+"sha": "8878c1b4cf4d7ef4",
+"ms": 1080
+},
+"names/rashee_rice_b": {
+"sha": "58c1ce2824304bb7",
+"ms": 780
+},
+"names/rashee_rice_c": {
+"sha": "2585ac54ef183dce",
+"ms": 842
+},
+"names/rhamondre_stevenson_b": {
+"sha": "62c3c2a59b7332af",
+"ms": 1170
+},
+"names/rhamondre_stevenson_c": {
+"sha": "3a133d31866c331b",
+"ms": 1195
+},
+"names/rico_dowdle_b": {
+"sha": "e5bd7bbc87b5f417",
+"ms": 860
+},
+"names/rico_dowdle_c": {
+"sha": "a130cacd5abf007b",
+"ms": 1005
+},
+"names/rj_harvey_b": {
+"sha": "066e44301c1309ac",
+"ms": 782
+},
+"names/rj_harvey_c": {
+"sha": "b1bfc3eb3fee9fab",
+"ms": 950
+},
+"names/rome_odunze_b": {
+"sha": "e5ae455549b56a14",
+"ms": 818
+},
+"names/rome_odunze_c": {
+"sha": "7c002adcd1c34dca",
+"ms": 932
+},
+"names/romeo_doubs_b": {
+"sha": "90176e2faaf17bf3",
+"ms": 878
+},
+"names/romeo_doubs_c": {
+"sha": "9e26439c5d7480b2",
+"ms": 900
+},
+"names/ryan_flournoy_b": {
+"sha": "30fd62010bb62af8",
+"ms": 932
+},
+"names/ryan_flournoy_c": {
+"sha": "ffff2428f5588d53",
+"ms": 1000
+},
+"names/sam_laporta_b": {
+"sha": "14f107f6f60aa12e",
+"ms": 855
+},
+"names/sam_laporta_c": {
+"sha": "f7f3ea281dc4dc68",
+"ms": 905
+},
+"names/samaje_perine_b": {
+"sha": "d126174d6c981875",
+"ms": 828
+},
+"names/samaje_perine_c": {
+"sha": "9701f7d1d1b8fe59",
+"ms": 1070
+},
+"names/saquon_barkley_b": {
+"sha": "f5d94af4353d21c7",
+"ms": 965
+},
+"names/saquon_barkley_c": {
+"sha": "1d37c7857098cf16",
+"ms": 1070
+},
+"names/seth_mcgowan_b": {
+"sha": "22fcec7d44570d20",
+"ms": 790
+},
+"names/seth_mcgowan_c": {
+"sha": "f9e56db6f28afd98",
+"ms": 892
+},
+"names/spencer_shrader_b": {
+"sha": "2f8f38cbc968a01e",
+"ms": 990
+},
+"names/spencer_shrader_c": {
+"sha": "bc2dcfed04b426ae",
+"ms": 1148
+},
+"names/stefon_diggs_b": {
+"sha": "6db7fcfc323e6b5c",
+"ms": 895
+},
+"names/stefon_diggs_c": {
+"sha": "ac787e313245452d",
+"ms": 1020
+},
+"names/t_j_hockenson_b": {
+"sha": "77fdb78174252d3c",
+"ms": 1075
+},
+"names/t_j_hockenson_c": {
+"sha": "4c74bb095c689981",
+"ms": 1242
+},
+"names/tee_higgins_b": {
+"sha": "64b90efa0b863cbd",
+"ms": 620
+},
+"names/tee_higgins_c": {
+"sha": "55eae81e90c55688",
+"ms": 777
+},
+"names/terry_mclaurin_b": {
+"sha": "ac9d5084dbd3f6f8",
+"ms": 930
+},
+"names/terry_mclaurin_c": {
+"sha": "469f6d1cdded2a19",
+"ms": 835
+},
+"names/tetairoa_mcmillan_b": {
+"sha": "9fedc5f96b0e8a2c",
+"ms": 1125
+},
+"names/tetairoa_mcmillan_c": {
+"sha": "e850062d41d24af7",
+"ms": 1198
+},
+"names/tony_pollard_b": {
+"sha": "fa95e1d5bbf01b89",
+"ms": 828
+},
+"names/tony_pollard_c": {
+"sha": "8c3afe202c692962",
+"ms": 842
+},
+"names/travis_etienne_jr_b": {
+"sha": "782c957b70166bee",
+"ms": 1372
+},
+"names/travis_etienne_jr_c": {
+"sha": "6f09258f3cabd970",
+"ms": 1598
+},
+"names/travis_kelce_b": {
+"sha": "a1efa86f3510672d",
+"ms": 795
+},
+"names/travis_kelce_c": {
+"sha": "5483f5a4187a8d0d",
+"ms": 942
+},
+"names/tre_tucker_b": {
+"sha": "9a79877123813af7",
+"ms": 655
+},
+"names/tre_tucker_c": {
+"sha": "eb700b8ff4e5a30e",
+"ms": 745
+},
+"names/treveyon_henderson_b": {
+"sha": "19c5a3e4da25b248",
+"ms": 1318
+},
+"names/treveyon_henderson_c": {
+"sha": "e4fa2a84216761d0",
+"ms": 1255
+},
+"names/trevor_lawrence_b": {
+"sha": "d569df6aba0825ed",
+"ms": 910
+},
+"names/trevor_lawrence_c": {
+"sha": "84ca623c26841ba3",
+"ms": 870
+},
+"names/trey_mcbride_b": {
+"sha": "a05601578123ba0e",
+"ms": 882
+},
+"names/trey_mcbride_c": {
+"sha": "6c51793f86b7904f",
+"ms": 862
+},
+"names/trey_smack_b": {
+"sha": "c79758e5f8bed1a3",
+"ms": 685
+},
+"names/trey_smack_c": {
+"sha": "c94bf7c077577a43",
+"ms": 730
+},
+"names/tucker_kraft_b": {
+"sha": "6e462a2f4ebb9b92",
+"ms": 730
+},
+"names/tucker_kraft_c": {
+"sha": "77c40df750fe18b3",
+"ms": 790
+},
+"names/tyler_allgeier_b": {
+"sha": "242892a05484dcc6",
+"ms": 1018
+},
+"names/tyler_allgeier_c": {
+"sha": "f803f18ecfb1c969",
+"ms": 1078
+},
+"names/tyler_bass_b": {
+"sha": "54cb0e4284f97a57",
+"ms": 777
+},
+"names/tyler_bass_c": {
+"sha": "35defc672d900e7d",
+"ms": 768
+},
+"names/tyler_loop_b": {
+"sha": "45c7da8c632b9b16",
+"ms": 660
+},
+"names/tyler_loop_c": {
+"sha": "f171eb0122d2646e",
+"ms": 608
+},
+"names/tyler_shough_b": {
+"sha": "0a4a7654028ab793",
+"ms": 688
+},
+"names/tyler_shough_c": {
+"sha": "4064f3a909d3b443",
+"ms": 825
+},
+"names/tyler_warren_b": {
+"sha": "015ecf0e107c300f",
+"ms": 812
+},
+"names/tyler_warren_c": {
+"sha": "c45f82b133021b89",
+"ms": 772
+},
+"names/wan_dale_robinson_b": {
+"sha": "61f481e6f9dcb8d3",
+"ms": 1022
+},
+"names/wan_dale_robinson_c": {
+"sha": "35d0f495408705d7",
+"ms": 1058
+},
+"names/will_reichard_b": {
+"sha": "7ddb2d5cf427155d",
+"ms": 640
+},
+"names/will_reichard_c": {
+"sha": "99e6a61e519d74a2",
+"ms": 590
+},
+"names/woody_marks_b": {
+"sha": "e4808a3ac3760190",
+"ms": 702
+},
+"names/woody_marks_c": {
+"sha": "c30e85b88d799846",
+"ms": 758
+},
+"names/xavier_worthy_b": {
+"sha": "dcfc2bb845dec156",
+"ms": 840
+},
+"names/xavier_worthy_c": {
+"sha": "4145e199da314f92",
+"ms": 978
+},
+"names/zach_charbonnet_b": {
+"sha": "ed98d666f685dfdd",
+"ms": 857
+},
+"names/zach_charbonnet_c": {
+"sha": "f8d104f510b327d7",
+"ms": 942
+},
+"names/zay_flowers_b": {
+"sha": "80ebdcf5ab549bd5",
+"ms": 815
+},
+"names/zay_flowers_c": {
+"sha": "de856fc7fda3bd5c",
+"ms": 858
+},
 "reactions/bastion/b-gasp-1": {
 "sha": "1a924810f7709bb2",
 "ms": 438
@@ -15670,5 +17178,573 @@
 "reactions/corvus/c-well-2": {
 "sha": "6c6ba4364bb317a9",
 "ms": 828
+},
+"vocab/depth_deep_b": {
+"sha": "3fb429e7db90990f",
+"ms": 280
+},
+"vocab/depth_deep_c": {
+"sha": "9dab801a1abf41ac",
+"ms": 710
+},
+"vocab/depth_short_b": {
+"sha": "99b93f6b5d96af0a",
+"ms": 302
+},
+"vocab/depth_short_c": {
+"sha": "1b34f96caa686b68",
+"ms": 383
+},
+"vocab/dir_left_b": {
+"sha": "e77b23fbb0d8a676",
+"ms": 310
+},
+"vocab/dir_left_c": {
+"sha": "a9a3c1dfe07fb790",
+"ms": 772
+},
+"vocab/dir_middle_b": {
+"sha": "a90c0d978aef4eda",
+"ms": 315
+},
+"vocab/dir_middle_c": {
+"sha": "dec6a3a9b5cfaead",
+"ms": 402
+},
+"vocab/dir_right_b": {
+"sha": "1c201c8834299841",
+"ms": 268
+},
+"vocab/dir_right_c": {
+"sha": "6dc4dd14511b84ac",
+"ms": 350
+},
+"vocab/flags_a_flag_b": {
+"sha": "20fecfd7f4ebbbb5",
+"ms": 588
+},
+"vocab/flags_a_flag_c": {
+"sha": "515e7e9734ec411f",
+"ms": 518
+},
+"vocab/flags_chop_block_b": {
+"sha": "838c307cae5a233d",
+"ms": 660
+},
+"vocab/flags_chop_block_c": {
+"sha": "1f04f3d0a622219b",
+"ms": 640
+},
+"vocab/flags_clipping_b": {
+"sha": "416085e4d081f1a3",
+"ms": 415
+},
+"vocab/flags_clipping_c": {
+"sha": "f8c6fa6c28d04580",
+"ms": 425
+},
+"vocab/flags_defensive_holding_b": {
+"sha": "d04591a910ebae7e",
+"ms": 1075
+},
+"vocab/flags_defensive_holding_c": {
+"sha": "bcc7f7f298bce0e9",
+"ms": 1125
+},
+"vocab/flags_defensive_offside_b": {
+"sha": "878fe39ae4d662d7",
+"ms": 1142
+},
+"vocab/flags_defensive_offside_c": {
+"sha": "4d76dde9f5326bca",
+"ms": 1275
+},
+"vocab/flags_defensive_pass_interference_b": {
+"sha": "6de2215b119bb3a7",
+"ms": 1655
+},
+"vocab/flags_defensive_pass_interference_c": {
+"sha": "5512c30c155fde7b",
+"ms": 1738
+},
+"vocab/flags_delay_of_game_b": {
+"sha": "d0ba55b986b87db6",
+"ms": 903
+},
+"vocab/flags_delay_of_game_c": {
+"sha": "14f5d69c6008bae5",
+"ms": 948
+},
+"vocab/flags_encroachment_b": {
+"sha": "e1cdad37b1ffdc38",
+"ms": 740
+},
+"vocab/flags_encroachment_c": {
+"sha": "79dcc758472027a4",
+"ms": 802
+},
+"vocab/flags_face_mask_b": {
+"sha": "98448d90084fff47",
+"ms": 755
+},
+"vocab/flags_face_mask_c": {
+"sha": "10f822400e6c8bfc",
+"ms": 850
+},
+"vocab/flags_false_start_b": {
+"sha": "80f66fbdd1730a8d",
+"ms": 635
+},
+"vocab/flags_false_start_c": {
+"sha": "1b94cf8e76cc8284",
+"ms": 767
+},
+"vocab/flags_holding_b": {
+"sha": "f0e21900ebe1d331",
+"ms": 480
+},
+"vocab/flags_holding_c": {
+"sha": "848d8a2832465c29",
+"ms": 467
+},
+"vocab/flags_horse_collar_tackle_b": {
+"sha": "8a6d4f9ddbc1e863",
+"ms": 1152
+},
+"vocab/flags_horse_collar_tackle_c": {
+"sha": "c3192bd26fe22a1e",
+"ms": 1095
+},
+"vocab/flags_illegal_block_in_the_back_b": {
+"sha": "1e93999e1b05276b",
+"ms": 1335
+},
+"vocab/flags_illegal_block_in_the_back_c": {
+"sha": "c4b929abc1391ba1",
+"ms": 1342
+},
+"vocab/flags_illegal_contact_b": {
+"sha": "c87f68930992fc0d",
+"ms": 1075
+},
+"vocab/flags_illegal_contact_c": {
+"sha": "b3657b8326174b2c",
+"ms": 1060
+},
+"vocab/flags_illegal_formation_b": {
+"sha": "857a4af5298454e9",
+"ms": 1108
+},
+"vocab/flags_illegal_formation_c": {
+"sha": "20e7264089d69d6f",
+"ms": 1142
+},
+"vocab/flags_illegal_forward_pass_b": {
+"sha": "07a60f4e791af96b",
+"ms": 1428
+},
+"vocab/flags_illegal_forward_pass_c": {
+"sha": "775f3c9938356b39",
+"ms": 1255
+},
+"vocab/flags_illegal_motion_b": {
+"sha": "f04d79524b0e6258",
+"ms": 922
+},
+"vocab/flags_illegal_motion_c": {
+"sha": "fc103fcb37b83906",
+"ms": 910
+},
+"vocab/flags_illegal_shift_b": {
+"sha": "bc23280688caca03",
+"ms": 828
+},
+"vocab/flags_illegal_shift_c": {
+"sha": "00e5649a33a9ab73",
+"ms": 855
+},
+"vocab/flags_illegal_use_of_hands_b": {
+"sha": "43f990a4bf13c953",
+"ms": 1278
+},
+"vocab/flags_illegal_use_of_hands_c": {
+"sha": "7b1392314c9bb28b",
+"ms": 1170
+},
+"vocab/flags_ineligible_downfield_pass_b": {
+"sha": "c4c74bf882e21863",
+"ms": 1760
+},
+"vocab/flags_ineligible_downfield_pass_c": {
+"sha": "7896c2cb0196e685",
+"ms": 1728
+},
+"vocab/flags_intentional_grounding_b": {
+"sha": "3dfe33fe299dd958",
+"ms": 1203
+},
+"vocab/flags_intentional_grounding_c": {
+"sha": "149457f3189c6a27",
+"ms": 1230
+},
+"vocab/flags_neutral_zone_infraction_b": {
+"sha": "3fb1de8488b8e414",
+"ms": 1328
+},
+"vocab/flags_neutral_zone_infraction_c": {
+"sha": "d09659d748a2017d",
+"ms": 1335
+},
+"vocab/flags_offensive_holding_b": {
+"sha": "e7415dd6a90b6280",
+"ms": 1068
+},
+"vocab/flags_offensive_holding_c": {
+"sha": "f53a957d251b56f8",
+"ms": 1138
+},
+"vocab/flags_offensive_pass_interference_b": {
+"sha": "aac7363f385045ea",
+"ms": 1725
+},
+"vocab/flags_offensive_pass_interference_c": {
+"sha": "78b9307c75d6f5a2",
+"ms": 1635
+},
+"vocab/flags_offside_b": {
+"sha": "986c9838ef9ae929",
+"ms": 552
+},
+"vocab/flags_offside_c": {
+"sha": "9b860a8de688e267",
+"ms": 658
+},
+"vocab/flags_pass_interference_b": {
+"sha": "f43fa888c6b75f90",
+"ms": 1062
+},
+"vocab/flags_pass_interference_c": {
+"sha": "7e0a2f47d52385ab",
+"ms": 1100
+},
+"vocab/flags_personal_foul_b": {
+"sha": "d74fc2dfb7529f20",
+"ms": 875
+},
+"vocab/flags_personal_foul_c": {
+"sha": "b138cc748fc28475",
+"ms": 888
+},
+"vocab/flags_roughing_the_kicker_b": {
+"sha": "936b61b25a3a191a",
+"ms": 848
+},
+"vocab/flags_roughing_the_kicker_c": {
+"sha": "d46f2fc102654dea",
+"ms": 810
+},
+"vocab/flags_roughing_the_passer_b": {
+"sha": "7cf875e34e9cbc72",
+"ms": 912
+},
+"vocab/flags_roughing_the_passer_c": {
+"sha": "914549fbc1b137b5",
+"ms": 908
+},
+"vocab/flags_running_into_the_kicker_b": {
+"sha": "b7113c7e646428ec",
+"ms": 1110
+},
+"vocab/flags_running_into_the_kicker_c": {
+"sha": "72d682d108c21484",
+"ms": 1012
+},
+"vocab/flags_targeting_b": {
+"sha": "01c8f8b3e10454e9",
+"ms": 615
+},
+"vocab/flags_targeting_c": {
+"sha": "f20a3b88964bd6cf",
+"ms": 645
+},
+"vocab/flags_taunting_b": {
+"sha": "dbc64b17ab70f292",
+"ms": 420
+},
+"vocab/flags_taunting_c": {
+"sha": "5d1ee99a77a1321b",
+"ms": 468
+},
+"vocab/flags_too_many_men_on_the_field_b": {
+"sha": "8867511723362d0b",
+"ms": 1288
+},
+"vocab/flags_too_many_men_on_the_field_c": {
+"sha": "faab4f1be8e7fee5",
+"ms": 1228
+},
+"vocab/flags_tripping_b": {
+"sha": "2397b05cd0902804",
+"ms": 420
+},
+"vocab/flags_tripping_c": {
+"sha": "274d05e9d23dc81a",
+"ms": 420
+},
+"vocab/flags_unnecessary_roughness_b": {
+"sha": "527e7750c38d46c2",
+"ms": 1368
+},
+"vocab/flags_unnecessary_roughness_c": {
+"sha": "62d6685f08777a02",
+"ms": 1370
+},
+"vocab/flags_unsportsmanlike_conduct_b": {
+"sha": "975e1beba4caee9b",
+"ms": 1452
+},
+"vocab/flags_unsportsmanlike_conduct_c": {
+"sha": "624f020cbaa397dc",
+"ms": 1540
+},
+"vocab/lane_around_left_end_b": {
+"sha": "33b6e8cd2cd16e08",
+"ms": 960
+},
+"vocab/lane_around_left_end_c": {
+"sha": "5b875326da4ec1da",
+"ms": 1025
+},
+"vocab/lane_around_right_end_b": {
+"sha": "e2342fb041a5d400",
+"ms": 985
+},
+"vocab/lane_around_right_end_c": {
+"sha": "c84092018bf8cec7",
+"ms": 1030
+},
+"vocab/lane_behind_the_left_guard_b": {
+"sha": "9d030d6bffd60e08",
+"ms": 1118
+},
+"vocab/lane_behind_the_left_guard_c": {
+"sha": "4e176a5a43f2da62",
+"ms": 1152
+},
+"vocab/lane_behind_the_right_guard_b": {
+"sha": "bfcd69af172ea7b8",
+"ms": 1092
+},
+"vocab/lane_behind_the_right_guard_c": {
+"sha": "d6d7be110e5b3ad2",
+"ms": 1130
+},
+"vocab/lane_off_left_tackle_b": {
+"sha": "558596fce02ca3ae",
+"ms": 848
+},
+"vocab/lane_off_left_tackle_c": {
+"sha": "a392384400ac8b1d",
+"ms": 1000
+},
+"vocab/lane_off_right_tackle_b": {
+"sha": "cc632eb514707072",
+"ms": 945
+},
+"vocab/lane_off_right_tackle_c": {
+"sha": "6abc0241b8e36947",
+"ms": 1082
+},
+"vocab/lane_up_the_middle_b": {
+"sha": "58ab94c2afa3bded",
+"ms": 580
+},
+"vocab/lane_up_the_middle_c": {
+"sha": "65c505c4f0afab95",
+"ms": 598
+},
+"vocab/members_greatness_b": {
+"sha": "ba657fcb4c481486",
+"ms": 510
+},
+"vocab/members_greatness_c": {
+"sha": "4e68499b709e1d89",
+"ms": 558
+},
+"vocab/members_lase_b": {
+"sha": "de5a535dd31ec704",
+"ms": 373
+},
+"vocab/members_lase_c": {
+"sha": "f0872978b0734e1b",
+"ms": 425
+},
+"vocab/nth_eighth_b": {
+"sha": "28fab96c8659fbee",
+"ms": 292
+},
+"vocab/nth_eighth_c": {
+"sha": "d07fbffe944ad704",
+"ms": 365
+},
+"vocab/nth_eleventh_b": {
+"sha": "7bf1e342ca81e298",
+"ms": 492
+},
+"vocab/nth_eleventh_c": {
+"sha": "514b9325fe6c0bb5",
+"ms": 485
+},
+"vocab/nth_fifth_b": {
+"sha": "4b1a9c63eb348e49",
+"ms": 358
+},
+"vocab/nth_fifth_c": {
+"sha": "781701c6cdfd9d18",
+"ms": 412
+},
+"vocab/nth_first_b": {
+"sha": "5b285c89ca0bb62a",
+"ms": 442
+},
+"vocab/nth_first_c": {
+"sha": "1759002ea0898e2b",
+"ms": 432
+},
+"vocab/nth_fourth_b": {
+"sha": "4f21b2cc0f48ad93",
+"ms": 352
+},
+"vocab/nth_fourth_c": {
+"sha": "23860d3325a34656",
+"ms": 405
+},
+"vocab/nth_ninth_b": {
+"sha": "7f42a0aa0f203c98",
+"ms": 385
+},
+"vocab/nth_ninth_c": {
+"sha": "6c58370d31ac2c1b",
+"ms": 418
+},
+"vocab/nth_second_b": {
+"sha": "41efd0803d4af66d",
+"ms": 442
+},
+"vocab/nth_second_c": {
+"sha": "d481942772c9adcb",
+"ms": 498
+},
+"vocab/nth_seventh_b": {
+"sha": "37bc1573d45f2e0f",
+"ms": 485
+},
+"vocab/nth_seventh_c": {
+"sha": "5e68307fd7d7d34c",
+"ms": 515
+},
+"vocab/nth_sixth_b": {
+"sha": "9591697d47a3fdb1",
+"ms": 392
+},
+"vocab/nth_sixth_c": {
+"sha": "e4726212ccd28cf1",
+"ms": 510
+},
+"vocab/nth_tenth_b": {
+"sha": "96bea90949540259",
+"ms": 318
+},
+"vocab/nth_tenth_c": {
+"sha": "8c90ab6ccccf79a5",
+"ms": 395
+},
+"vocab/nth_third_b": {
+"sha": "ef8bfae230560037",
+"ms": 390
+},
+"vocab/nth_third_c": {
+"sha": "656157db163411b0",
+"ms": 390
+},
+"vocab/nth_twelfth_b": {
+"sha": "a22b7d510e458bd9",
+"ms": 442
+},
+"vocab/nth_twelfth_c": {
+"sha": "ec42d584bbb7ca7c",
+"ms": 475
+},
+"vocab/pqtr_first_quarter_b": {
+"sha": "b2faa29aa5037160",
+"ms": 770
+},
+"vocab/pqtr_first_quarter_c": {
+"sha": "f73fa509ad6c2e9d",
+"ms": 750
+},
+"vocab/pqtr_fourth_quarter_b": {
+"sha": "a487bf985e452ea5",
+"ms": 750
+},
+"vocab/pqtr_fourth_quarter_c": {
+"sha": "708bf2d51ed730d5",
+"ms": 725
+},
+"vocab/pqtr_game_b": {
+"sha": "a9dff6bbaa8094c7",
+"ms": 310
+},
+"vocab/pqtr_game_c": {
+"sha": "79ad3a593b066248",
+"ms": 360
+},
+"vocab/pqtr_overtime_b": {
+"sha": "a38fe8f3bedc5022",
+"ms": 652
+},
+"vocab/pqtr_overtime_c": {
+"sha": "fd9f54ef590fe9d9",
+"ms": 655
+},
+"vocab/pqtr_second_quarter_b": {
+"sha": "4689f3267b5bb840",
+"ms": 870
+},
+"vocab/pqtr_second_quarter_c": {
+"sha": "76a96d0c6a880350",
+"ms": 838
+},
+"vocab/pqtr_third_quarter_b": {
+"sha": "0b59ce1b45ecdb46",
+"ms": 788
+},
+"vocab/pqtr_third_quarter_c": {
+"sha": "e6caeb04d9230f45",
+"ms": 752
+},
+"vocab/words_hundred_b": {
+"sha": "74069b518bdfa5d5",
+"ms": 450
+},
+"vocab/words_hundred_c": {
+"sha": "768e95ac37045f64",
+"ms": 502
+},
+"vocab/words_quarter_b": {
+"sha": "6ca5b9e0cf243f08",
+"ms": 462
+},
+"vocab/words_quarter_c": {
+"sha": "4e24f7eb5be23e5c",
+"ms": 432
+},
+"vocab/words_to_b": {
+"sha": "1ea7ce7605037b3f",
+"ms": 405
+},
+"vocab/words_to_c": {
+"sha": "836368e45189ad55",
+"ms": 615
 }
 }

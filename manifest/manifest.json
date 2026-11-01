@@ -43212,6 +43212,752 @@
    "sha": "0d3307086fe4e611"
   },
   {
+   "id": "fantasy_swing:corvus:0",
+   "character": "corvus",
+   "text": "+{player} scores, [pause:220] and it counts twice. [pause:600] [overlap] Once here, once on {member}'s fantasy board.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_0__01.ogg",
+     "text": "scores,",
+     "sha": "6e27a2a3ca451c88",
+     "ms": 895
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_0__02.ogg",
+     "text": "and it counts twice.",
+     "sha": "8d82dee40f2a2363",
+     "ms": 1888
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_0__03.ogg",
+     "text": "Once here, once on",
+     "sha": "55f1000904173969",
+     "ms": 1217
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_0__04.ogg",
+     "text": "'s fantasy board.",
+     "sha": "a515d0e7d20070a2",
+     "ms": 1730
+    }
+   ],
+   "pauses": [
+    0,
+    220,
+    600,
+    0,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 3,
+   "duration_ms": 7350,
+   "overlap_ms": 4003,
+   "sha": "7b8362f53cf8b0d4"
+  },
+  {
+   "id": "fantasy_swing:corvus:1",
+   "character": "corvus",
+   "text": "+Points for {member}'s side. [pause:560] [overlap] {player} is in that starting lineup.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/corvus/fantasy_swing_1__01.ogg",
+     "text": "Points for",
+     "sha": "877b8bc4856e30d3",
+     "ms": 620
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_1__02.ogg",
+     "text": "'s side.",
+     "sha": "e1d4bccdced48631",
+     "ms": 870
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_1__03.ogg",
+     "text": "is in that starting lineup.",
+     "sha": "eb1aafe15fc20399",
+     "ms": 2235
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    560,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 3,
+   "duration_ms": 5085,
+   "overlap_ms": 2450,
+   "sha": "5e46b5d3c6805053"
+  },
+  {
+   "id": "fantasy_swing:corvus:2",
+   "character": "corvus",
+   "text": "=A quiet note for {member}: [pause:250] {player} just paid off the start. [pause:520] [overlap] Good decision.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/corvus/fantasy_swing_2__01.ogg",
+     "text": "A quiet note for",
+     "sha": "98a7b8b684a6ce8d",
+     "ms": 1027
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ":",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_2__03.ogg",
+     "text": "just paid off the start.",
+     "sha": "a072cbc799490ae9",
+     "ms": 2062
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_2__04.ogg",
+     "text": "Good decision.",
+     "sha": "5051d7842805802b",
+     "ms": 1488
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    250,
+    0,
+    520
+   ],
+   "intensity": 2,
+   "overlap_piece": 5,
+   "duration_ms": 6207,
+   "overlap_ms": 4719,
+   "sha": "ccb11353a5e2d29b"
+  },
+  {
+   "id": "fantasy_swing:corvus:3",
+   "character": "corvus",
+   "text": "+{member} started {player}. [pause:620] [overlap] The spreadsheet approves.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_3__01.ogg",
+     "text": "started",
+     "sha": "85d6cd3b8bb334e4",
+     "ms": 565
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_3__03.ogg",
+     "text": "The spreadsheet approves.",
+     "sha": "65310f170eee703e",
+     "ms": 2172
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    0,
+    620
+   ],
+   "intensity": 2,
+   "overlap_piece": 4,
+   "duration_ms": 4217,
+   "overlap_ms": 2045,
+   "sha": "0862937d6efb8a3d"
+  },
+  {
+   "id": "fantasy_swing:corvus:4",
+   "character": "corvus",
+   "text": "=That one swings a fantasy matchup too. [pause:540] {player} [pause:200] [overlap] belongs to {member}.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/corvus/fantasy_swing_4__01.ogg",
+     "text": "That one swings a fantasy matchup too.",
+     "sha": "79657c0774ada509",
+     "ms": 3035
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_4__02.ogg",
+     "text": "belongs to",
+     "sha": "c5500eae626efb54",
+     "ms": 868
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    }
+   ],
+   "pauses": [
+    540,
+    200,
+    0,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 2,
+   "duration_ms": 5503,
+   "overlap_ms": 4175,
+   "sha": "efc239e548cdaf8f"
+  },
+  {
+   "id": "fantasy_swing:corvus:5",
+   "character": "corvus",
+   "text": "+{player} on the scoresheet. [pause:420] {member}'s lineup [pause:200] [overlap] just moved.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_5__01.ogg",
+     "text": "on the scoresheet.",
+     "sha": "276e51af6e8325be",
+     "ms": 1645
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_5__02.ogg",
+     "text": "'s lineup",
+     "sha": "83b0093f9835074e",
+     "ms": 828
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_5__03.ogg",
+     "text": "just moved.",
+     "sha": "95961bce7fe7a37e",
+     "ms": 1275
+    }
+   ],
+   "pauses": [
+    0,
+    420,
+    0,
+    200
+   ],
+   "intensity": 2,
+   "overlap_piece": 4,
+   "duration_ms": 5168,
+   "overlap_ms": 3893,
+   "sha": "fc83be511f93b52c"
+  },
+  {
+   "id": "fantasy_swing:corvus:6",
+   "character": "corvus",
+   "text": "~Somewhere {member} is checking the app. [pause:600] [overlap] Yes, {player} counted.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/corvus/fantasy_swing_6__01.ogg",
+     "text": "Somewhere",
+     "sha": "59d1ad8b056baa80",
+     "ms": 580
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_6__02.ogg",
+     "text": "is checking the app.",
+     "sha": "c69db8ccbf55c5f8",
+     "ms": 1548
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_6__03.ogg",
+     "text": "Yes,",
+     "sha": "9f8b43694a5cbb44",
+     "ms": 545
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_6__04.ogg",
+     "text": "counted.",
+     "sha": "5b6324b252ae90bd",
+     "ms": 1040
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    600,
+    0,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 3,
+   "duration_ms": 5113,
+   "overlap_ms": 3128,
+   "sha": "c2a6a045981512b9"
+  },
+  {
+   "id": "fantasy_swing:corvus:7",
+   "character": "corvus",
+   "text": "+{member}'s fantasy team thanks {player}. [pause:650] [overlap] So does the box score.",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_7__01.ogg",
+     "text": "'s fantasy team thanks",
+     "sha": "3e51215f36c6db18",
+     "ms": 1508
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": ".",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/corvus/fantasy_swing_7__03.ogg",
+     "text": "So does the box score.",
+     "sha": "a11074184b62d555",
+     "ms": 2092
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    0,
+    650
+   ],
+   "intensity": 2,
+   "overlap_piece": 4,
+   "duration_ms": 5110,
+   "overlap_ms": 3018,
+   "sha": "8841c9fac877033b"
+  },
+  {
+   "id": "fantasy_swing:bastion:0",
+   "character": "bastion",
+   "text": "+That's points for {member}'s side! [pause:350] [overlap] {player} delivers!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/bastion/fantasy_swing_0__01.ogg",
+     "text": "That's points for",
+     "sha": "07fd0255def39fd0",
+     "ms": 805
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_0__02.ogg",
+     "text": "'s side!",
+     "sha": "d8457f35a2e5cc11",
+     "ms": 575
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_0__03.ogg",
+     "text": "delivers!",
+     "sha": "aefab4f6568d77ca",
+     "ms": 685
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    350,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 3,
+   "duration_ms": 3215,
+   "overlap_ms": 2130,
+   "sha": "f20ba03599ed3859"
+  },
+  {
+   "id": "fantasy_swing:bastion:1",
+   "character": "bastion",
+   "text": "+{member}! [pause:350] {player} is YOUR guy! [pause:350] [overlap] Fantasy points!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "member"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_1__02.ogg",
+     "text": "is YOUR guy!",
+     "sha": "b7ed71e2f706a249",
+     "ms": 688
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_1__03.ogg",
+     "text": "Fantasy points!",
+     "sha": "7ad5ec0e6e02f65e",
+     "ms": 1065
+    }
+   ],
+   "pauses": [
+    0,
+    350,
+    0,
+    350
+   ],
+   "intensity": 2,
+   "overlap_piece": 4,
+   "duration_ms": 3313,
+   "overlap_ms": 2248,
+   "sha": "2bc0785eddeabf17"
+  },
+  {
+   "id": "fantasy_swing:bastion:2",
+   "character": "bastion",
+   "text": "+Cha-ching for {member}! [pause:350] [overlap] {player} just paid the lineup!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/bastion/fantasy_swing_2__01.ogg",
+     "text": "Cha-ching for",
+     "sha": "f606da694bb237de",
+     "ms": 662
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_2__03.ogg",
+     "text": "just paid the lineup!",
+     "sha": "cef8ec01bbcfe56e",
+     "ms": 908
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    350,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 3,
+   "duration_ms": 2780,
+   "overlap_ms": 1472,
+   "sha": "5f8f8d4d7f2a2b7d"
+  },
+  {
+   "id": "fantasy_swing:bastion:3",
+   "character": "bastion",
+   "text": "+{player} scores and {member} feels it! [pause:350] [overlap] Fantasy swing!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_3__01.ogg",
+     "text": "scores and",
+     "sha": "8fa7b2e974b973a0",
+     "ms": 617
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_3__02.ogg",
+     "text": "feels it!",
+     "sha": "2e9bc545c975f493",
+     "ms": 552
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_3__03.ogg",
+     "text": "Fantasy swing!",
+     "sha": "d4faf442e2b2f7ac",
+     "ms": 1010
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    0,
+    350
+   ],
+   "intensity": 2,
+   "overlap_piece": 4,
+   "duration_ms": 3329,
+   "overlap_ms": 2319,
+   "sha": "e758810aa7da8eee"
+  },
+  {
+   "id": "fantasy_swing:bastion:4",
+   "character": "bastion",
+   "text": "+Big swing in {member}'s matchup! [pause:350] [overlap] {player} came through!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/bastion/fantasy_swing_4__01.ogg",
+     "text": "Big swing in",
+     "sha": "6305f888759d2e0c",
+     "ms": 737
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_4__02.ogg",
+     "text": "'s matchup!",
+     "sha": "e94b76e1677a1fee",
+     "ms": 630
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_4__03.ogg",
+     "text": "came through!",
+     "sha": "adde014f92b5032a",
+     "ms": 690
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    350,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 3,
+   "duration_ms": 3207,
+   "overlap_ms": 2117,
+   "sha": "29d0ce9337200277"
+  },
+  {
+   "id": "fantasy_swing:bastion:5",
+   "character": "bastion",
+   "text": "+Who started {player}? [pause:300] {member} did! [pause:350] [overlap] Smart!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/bastion/fantasy_swing_5__01.ogg",
+     "text": "Who started",
+     "sha": "0b1bd69bc980b9db",
+     "ms": 565
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "?",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_5__03.ogg",
+     "text": "did!",
+     "sha": "63360fb3dd0c9ae3",
+     "ms": 385
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_5__04.ogg",
+     "text": "Smart!",
+     "sha": "9ca557011d55574f",
+     "ms": 622
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    300,
+    0,
+    350
+   ],
+   "intensity": 2,
+   "overlap_piece": 5,
+   "duration_ms": 3082,
+   "overlap_ms": 2460,
+   "sha": "2b4adb7072c352e7"
+  },
+  {
+   "id": "fantasy_swing:bastion:6",
+   "character": "bastion",
+   "text": "+{member}'s lineup just jumped! [pause:350] [overlap] Thank you, {player}!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_6__01.ogg",
+     "text": "'s lineup just jumped!",
+     "sha": "08c08324e7e9c85a",
+     "ms": 1225
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_6__02.ogg",
+     "text": "Thank you,",
+     "sha": "f1e456339aa27329",
+     "ms": 502
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!",
+     "sha": "blank60",
+     "ms": 60
+    }
+   ],
+   "pauses": [
+    0,
+    350,
+    0,
+    0
+   ],
+   "intensity": 2,
+   "overlap_piece": 2,
+   "duration_ms": 2937,
+   "overlap_ms": 1975,
+   "sha": "0faaff08ecd11583"
+  },
+  {
+   "id": "fantasy_swing:bastion:7",
+   "character": "bastion",
+   "text": "+Go {player}! [pause:300] That's for {member}'s fantasy team! [pause:350] [overlap] Huge!",
+   "trigger": "fantasy_swing",
+   "group": "events",
+   "pieces": [
+    {
+     "file": "lines/bastion/fantasy_swing_7__01.ogg",
+     "text": "Go",
+     "sha": "19c456cd0d6a289d",
+     "ms": 285
+    },
+    {
+     "slot": "player"
+    },
+    {
+     "file": "common/_blank.ogg",
+     "text": "!",
+     "sha": "blank60",
+     "ms": 60
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_7__03.ogg",
+     "text": "That's for",
+     "sha": "ee05c9b48f31b8c0",
+     "ms": 492
+    },
+    {
+     "slot": "member"
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_7__04.ogg",
+     "text": "'s fantasy team!",
+     "sha": "f36fe3c3685d6a43",
+     "ms": 1072
+    },
+    {
+     "file": "lines/bastion/fantasy_swing_7__05.ogg",
+     "text": "Huge!",
+     "sha": "beff8c31510a9585",
+     "ms": 580
+    }
+   ],
+   "pauses": [
+    0,
+    0,
+    300,
+    0,
+    0,
+    350
+   ],
+   "intensity": 2,
+   "overlap_piece": 6,
+   "duration_ms": 3939,
+   "overlap_ms": 3359,
+   "sha": "239a8cfcfcf48576"
+  },
+  {
    "id": "mem_half:corvus:0",
    "character": "corvus",
    "text": "=Half: {score}. [pause:420] {penTeam} has {penN} penalties, [pause:220] [overlap] and that's most of the story.",
@@ -50107,7 +50853,340 @@
    "sha": "3f7b0d01631537bc"
   }
  ],
- "names": {},
+ "names": {
+  "brock-bowers@corvus": "names/brock_bowers_c.ogg",
+  "brock-bowers@bastion": "names/brock_bowers_b.ogg",
+  "matthew-golden@corvus": "names/matthew_golden_c.ogg",
+  "matthew-golden@bastion": "names/matthew_golden_b.ogg",
+  "ashton-jeanty@corvus": "names/ashton_jeanty_c.ogg",
+  "ashton-jeanty@bastion": "names/ashton_jeanty_b.ogg",
+  "tyler-loop@corvus": "names/tyler_loop_c.ogg",
+  "tyler-loop@bastion": "names/tyler_loop_b.ogg",
+  "jeremiyah-love@corvus": "names/jeremiyah_love_c.ogg",
+  "jeremiyah-love@bastion": "names/jeremiyah_love_b.ogg",
+  "makai-lemon@corvus": "names/makai_lemon_c.ogg",
+  "makai-lemon@bastion": "names/makai_lemon_b.ogg",
+  "mike-evans@corvus": "names/mike_evans_c.ogg",
+  "mike-evans@bastion": "names/mike_evans_b.ogg",
+  "chris-godwin-jr@corvus": "names/chris_godwin_jr_c.ogg",
+  "chris-godwin-jr@bastion": "names/chris_godwin_jr_b.ogg",
+  "saquon-barkley@corvus": "names/saquon_barkley_c.ogg",
+  "saquon-barkley@bastion": "names/saquon_barkley_b.ogg",
+  "david-montgomery@corvus": "names/david_montgomery_c.ogg",
+  "david-montgomery@bastion": "names/david_montgomery_b.ogg",
+  "jordan-love@corvus": "names/jordan_love_c.ogg",
+  "jordan-love@bastion": "names/jordan_love_b.ogg",
+  "chuba-hubbard@corvus": "names/chuba_hubbard_c.ogg",
+  "chuba-hubbard@bastion": "names/chuba_hubbard_b.ogg",
+  "tyler-allgeier@corvus": "names/tyler_allgeier_c.ogg",
+  "tyler-allgeier@bastion": "names/tyler_allgeier_b.ogg",
+  "emanuel-wilson@corvus": "names/emanuel_wilson_c.ogg",
+  "emanuel-wilson@bastion": "names/emanuel_wilson_b.ogg",
+  "brandon-aubrey@corvus": "names/brandon_aubrey_c.ogg",
+  "brandon-aubrey@bastion": "names/brandon_aubrey_b.ogg",
+  "braelon-allen@corvus": "names/braelon_allen_c.ogg",
+  "braelon-allen@bastion": "names/braelon_allen_b.ogg",
+  "tyler-warren@corvus": "names/tyler_warren_c.ogg",
+  "tyler-warren@bastion": "names/tyler_warren_b.ogg",
+  "dak-prescott@corvus": "names/dak_prescott_c.ogg",
+  "dak-prescott@bastion": "names/dak_prescott_b.ogg",
+  "ceedee-lamb@corvus": "names/ceedee_lamb_c.ogg",
+  "ceedee-lamb@bastion": "names/ceedee_lamb_b.ogg",
+  "d-andre-swift@corvus": "names/d_andre_swift_c.ogg",
+  "d-andre-swift@bastion": "names/d_andre_swift_b.ogg",
+  "amon-ra-st-brown@corvus": "names/amon_ra_st_brown_c.ogg",
+  "amon-ra-st-brown@bastion": "names/amon_ra_st_brown_b.ogg",
+  "isaiah-likely@corvus": "names/isaiah_likely_c.ogg",
+  "isaiah-likely@bastion": "names/isaiah_likely_b.ogg",
+  "kyren-williams@corvus": "names/kyren_williams_c.ogg",
+  "kyren-williams@bastion": "names/kyren_williams_b.ogg",
+  "breece-hall@corvus": "names/breece_hall_c.ogg",
+  "breece-hall@bastion": "names/breece_hall_b.ogg",
+  "zach-charbonnet@corvus": "names/zach_charbonnet_c.ogg",
+  "zach-charbonnet@bastion": "names/zach_charbonnet_b.ogg",
+  "c-j-stroud@corvus": "names/c_j_stroud_c.ogg",
+  "c-j-stroud@bastion": "names/c_j_stroud_b.ogg",
+  "xavier-worthy@corvus": "names/xavier_worthy_c.ogg",
+  "xavier-worthy@bastion": "names/xavier_worthy_b.ogg",
+  "rj-harvey@corvus": "names/rj_harvey_c.ogg",
+  "rj-harvey@bastion": "names/rj_harvey_b.ogg",
+  "germie-bernard@corvus": "names/germie_bernard_c.ogg",
+  "germie-bernard@bastion": "names/germie_bernard_b.ogg",
+  "omar-cooper-jr@corvus": "names/omar_cooper_jr_c.ogg",
+  "omar-cooper-jr@bastion": "names/omar_cooper_jr_b.ogg",
+  "travis-kelce@corvus": "names/travis_kelce_c.ogg",
+  "travis-kelce@bastion": "names/travis_kelce_b.ogg",
+  "chris-boswell@corvus": "names/chris_boswell_c.ogg",
+  "chris-boswell@bastion": "names/chris_boswell_b.ogg",
+  "derrick-henry@corvus": "names/derrick_henry_c.ogg",
+  "derrick-henry@bastion": "names/derrick_henry_b.ogg",
+  "mike-gesicki@corvus": "names/mike_gesicki_c.ogg",
+  "mike-gesicki@bastion": "names/mike_gesicki_b.ogg",
+  "a-j-brown@corvus": "names/a_j_brown_c.ogg",
+  "a-j-brown@bastion": "names/a_j_brown_b.ogg",
+  "joe-burrow@corvus": "names/joe_burrow_c.ogg",
+  "joe-burrow@bastion": "names/joe_burrow_b.ogg",
+  "ja-marr-chase@corvus": "names/ja_marr_chase_c.ogg",
+  "ja-marr-chase@bastion": "names/ja_marr_chase_b.ogg",
+  "jaylen-warren@corvus": "names/jaylen_warren_c.ogg",
+  "jaylen-warren@bastion": "names/jaylen_warren_b.ogg",
+  "brenton-strange@corvus": "names/brenton_strange_c.ogg",
+  "brenton-strange@bastion": "names/brenton_strange_b.ogg",
+  "josh-downs@corvus": "names/josh_downs_c.ogg",
+  "josh-downs@bastion": "names/josh_downs_b.ogg",
+  "aaron-rodgers@corvus": "names/aaron_rodgers_c.ogg",
+  "aaron-rodgers@bastion": "names/aaron_rodgers_b.ogg",
+  "michael-wilson@corvus": "names/michael_wilson_c.ogg",
+  "michael-wilson@bastion": "names/michael_wilson_b.ogg",
+  "blake-corum@corvus": "names/blake_corum_c.ogg",
+  "blake-corum@bastion": "names/blake_corum_b.ogg",
+  "kirk-cousins@corvus": "names/kirk_cousins_c.ogg",
+  "kirk-cousins@bastion": "names/kirk_cousins_b.ogg",
+  "woody-marks@corvus": "names/woody_marks_c.ogg",
+  "woody-marks@bastion": "names/woody_marks_b.ogg",
+  "jason-myers@corvus": "names/jason_myers_c.ogg",
+  "jason-myers@bastion": "names/jason_myers_b.ogg",
+  "patrick-mahomes@corvus": "names/patrick_mahomes_c.ogg",
+  "patrick-mahomes@bastion": "names/patrick_mahomes_b.ogg",
+  "aaron-jones-sr@corvus": "names/aaron_jones_sr_c.ogg",
+  "aaron-jones-sr@bastion": "names/aaron_jones_sr_b.ogg",
+  "george-kittle@corvus": "names/george_kittle_c.ogg",
+  "george-kittle@bastion": "names/george_kittle_b.ogg",
+  "lamar-jackson@corvus": "names/lamar_jackson_c.ogg",
+  "lamar-jackson@bastion": "names/lamar_jackson_b.ogg",
+  "dk-metcalf@corvus": "names/dk_metcalf_c.ogg",
+  "dk-metcalf@bastion": "names/dk_metcalf_b.ogg",
+  "justin-jefferson@corvus": "names/justin_jefferson_c.ogg",
+  "justin-jefferson@bastion": "names/justin_jefferson_b.ogg",
+  "james-cook-iii@corvus": "names/james_cook_iii_c.ogg",
+  "james-cook-iii@bastion": "names/james_cook_iii_b.ogg",
+  "chris-olave@corvus": "names/chris_olave_c.ogg",
+  "chris-olave@bastion": "names/chris_olave_b.ogg",
+  "jameson-williams@corvus": "names/jameson_williams_c.ogg",
+  "jameson-williams@bastion": "names/jameson_williams_b.ogg",
+  "rome-odunze@corvus": "names/rome_odunze_c.ogg",
+  "rome-odunze@bastion": "names/rome_odunze_b.ogg",
+  "malik-nabers@corvus": "names/malik_nabers_c.ogg",
+  "malik-nabers@bastion": "names/malik_nabers_b.ogg",
+  "harold-fannin-jr@corvus": "names/harold_fannin_jr_c.ogg",
+  "harold-fannin-jr@bastion": "names/harold_fannin_jr_b.ogg",
+  "jaxson-dart@corvus": "names/jaxson_dart_c.ogg",
+  "jaxson-dart@bastion": "names/jaxson_dart_b.ogg",
+  "treveyon-henderson@corvus": "names/treveyon_henderson_c.ogg",
+  "treveyon-henderson@bastion": "names/treveyon_henderson_b.ogg",
+  "ka-imi-fairbairn@corvus": "names/ka_imi_fairbairn_c.ogg",
+  "ka-imi-fairbairn@bastion": "names/ka_imi_fairbairn_b.ogg",
+  "travis-etienne-jr@corvus": "names/travis_etienne_jr_c.ogg",
+  "travis-etienne-jr@bastion": "names/travis_etienne_jr_b.ogg",
+  "garrett-wilson@corvus": "names/garrett_wilson_c.ogg",
+  "garrett-wilson@bastion": "names/garrett_wilson_b.ogg",
+  "brock-purdy@corvus": "names/brock_purdy_c.ogg",
+  "brock-purdy@bastion": "names/brock_purdy_b.ogg",
+  "jordan-mason@corvus": "names/jordan_mason_c.ogg",
+  "jordan-mason@bastion": "names/jordan_mason_b.ogg",
+  "de-von-achane@corvus": "names/de_von_achane_c.ogg",
+  "de-von-achane@bastion": "names/de_von_achane_b.ogg",
+  "jaxon-smith-njigba@corvus": "names/jaxon_smith_njigba_c.ogg",
+  "jaxon-smith-njigba@bastion": "names/jaxon_smith_njigba_b.ogg",
+  "quentin-johnston@corvus": "names/quentin_johnston_c.ogg",
+  "quentin-johnston@bastion": "names/quentin_johnston_b.ogg",
+  "zay-flowers@corvus": "names/zay_flowers_c.ogg",
+  "zay-flowers@bastion": "names/zay_flowers_b.ogg",
+  "sam-laporta@corvus": "names/sam_laporta_c.ogg",
+  "sam-laporta@bastion": "names/sam_laporta_b.ogg",
+  "jake-bates@corvus": "names/jake_bates_c.ogg",
+  "jake-bates@bastion": "names/jake_bates_b.ogg",
+  "omarion-hampton@corvus": "names/omarion_hampton_c.ogg",
+  "omarion-hampton@bastion": "names/omarion_hampton_b.ogg",
+  "tetairoa-mcmillan@corvus": "names/tetairoa_mcmillan_c.ogg",
+  "tetairoa-mcmillan@bastion": "names/tetairoa_mcmillan_b.ogg",
+  "kyle-monangai@corvus": "names/kyle_monangai_c.ogg",
+  "kyle-monangai@bastion": "names/kyle_monangai_b.ogg",
+  "carnell-tate@corvus": "names/carnell_tate_c.ogg",
+  "carnell-tate@bastion": "names/carnell_tate_b.ogg",
+  "kc-concepcion-jr@corvus": "names/kc_concepcion_jr_c.ogg",
+  "kc-concepcion-jr@bastion": "names/kc_concepcion_jr_b.ogg",
+  "dj-moore@corvus": "names/dj_moore_c.ogg",
+  "dj-moore@bastion": "names/dj_moore_b.ogg",
+  "josh-allen@corvus": "names/josh_allen_c.ogg",
+  "josh-allen@bastion": "names/josh_allen_b.ogg",
+  "mark-andrews@corvus": "names/mark_andrews_c.ogg",
+  "mark-andrews@bastion": "names/mark_andrews_b.ogg",
+  "josh-jacobs@corvus": "names/josh_jacobs_c.ogg",
+  "josh-jacobs@bastion": "names/josh_jacobs_b.ogg",
+  "trevor-lawrence@corvus": "names/trevor_lawrence_c.ogg",
+  "trevor-lawrence@bastion": "names/trevor_lawrence_b.ogg",
+  "drake-london@corvus": "names/drake_london_c.ogg",
+  "drake-london@bastion": "names/drake_london_b.ogg",
+  "bijan-robinson@corvus": "names/bijan_robinson_c.ogg",
+  "bijan-robinson@bastion": "names/bijan_robinson_b.ogg",
+  "drake-maye@corvus": "names/drake_maye_c.ogg",
+  "drake-maye@bastion": "names/drake_maye_b.ogg",
+  "ladd-mcconkey@corvus": "names/ladd_mcconkey_c.ogg",
+  "ladd-mcconkey@bastion": "names/ladd_mcconkey_b.ogg",
+  "ollie-gordon-ii@corvus": "names/ollie_gordon_ii_c.ogg",
+  "ollie-gordon-ii@bastion": "names/ollie_gordon_ii_b.ogg",
+  "emeka-egbuka@corvus": "names/emeka_egbuka_c.ogg",
+  "emeka-egbuka@bastion": "names/emeka_egbuka_b.ogg",
+  "luther-burden-iii@corvus": "names/luther_burden_iii_c.ogg",
+  "luther-burden-iii@bastion": "names/luther_burden_iii_b.ogg",
+  "jadarian-price@corvus": "names/jadarian_price_c.ogg",
+  "jadarian-price@bastion": "names/jadarian_price_b.ogg",
+  "stefon-diggs@corvus": "names/stefon_diggs_c.ogg",
+  "stefon-diggs@bastion": "names/stefon_diggs_b.ogg",
+  "jared-goff@corvus": "names/jared_goff_c.ogg",
+  "jared-goff@bastion": "names/jared_goff_b.ogg",
+  "hunter-henry@corvus": "names/hunter_henry_c.ogg",
+  "hunter-henry@bastion": "names/hunter_henry_b.ogg",
+  "matt-gay@corvus": "names/matt_gay_c.ogg",
+  "matt-gay@bastion": "names/matt_gay_b.ogg",
+  "jonathan-taylor@corvus": "names/jonathan_taylor_c.ogg",
+  "jonathan-taylor@bastion": "names/jonathan_taylor_b.ogg",
+  "kyle-pitts-sr@corvus": "names/kyle_pitts_sr_c.ogg",
+  "kyle-pitts-sr@bastion": "names/kyle_pitts_sr_b.ogg",
+  "nico-collins@corvus": "names/nico_collins_c.ogg",
+  "nico-collins@bastion": "names/nico_collins_b.ogg",
+  "rhamondre-stevenson@corvus": "names/rhamondre_stevenson_c.ogg",
+  "rhamondre-stevenson@bastion": "names/rhamondre_stevenson_b.ogg",
+  "khalil-shakir@corvus": "names/khalil_shakir_c.ogg",
+  "khalil-shakir@bastion": "names/khalil_shakir_b.ogg",
+  "rashee-rice@corvus": "names/rashee_rice_c.ogg",
+  "rashee-rice@bastion": "names/rashee_rice_b.ogg",
+  "caleb-williams@corvus": "names/caleb_williams_c.ogg",
+  "caleb-williams@bastion": "names/caleb_williams_b.ogg",
+  "bucky-irving@corvus": "names/bucky_irving_c.ogg",
+  "bucky-irving@bastion": "names/bucky_irving_b.ogg",
+  "brian-thomas-jr@corvus": "names/brian_thomas_jr_c.ogg",
+  "brian-thomas-jr@bastion": "names/brian_thomas_jr_b.ogg",
+  "cam-little@corvus": "names/cam_little_c.ogg",
+  "cam-little@bastion": "names/cam_little_b.ogg",
+  "quinshon-judkins@corvus": "names/quinshon_judkins_c.ogg",
+  "quinshon-judkins@bastion": "names/quinshon_judkins_b.ogg",
+  "colston-loveland@corvus": "names/colston_loveland_c.ogg",
+  "colston-loveland@bastion": "names/colston_loveland_b.ogg",
+  "dallas-goedert@corvus": "names/dallas_goedert_c.ogg",
+  "dallas-goedert@bastion": "names/dallas_goedert_b.ogg",
+  "terry-mclaurin@corvus": "names/terry_mclaurin_c.ogg",
+  "terry-mclaurin@bastion": "names/terry_mclaurin_b.ogg",
+  "tony-pollard@corvus": "names/tony_pollard_c.ogg",
+  "tony-pollard@bastion": "names/tony_pollard_b.ogg",
+  "j-k-dobbins@corvus": "names/j_k_dobbins_c.ogg",
+  "j-k-dobbins@bastion": "names/j_k_dobbins_b.ogg",
+  "wan-dale-robinson@corvus": "names/wan_dale_robinson_c.ogg",
+  "wan-dale-robinson@bastion": "names/wan_dale_robinson_b.ogg",
+  "chase-brown@corvus": "names/chase_brown_c.ogg",
+  "chase-brown@bastion": "names/chase_brown_b.ogg",
+  "puka-nacua@corvus": "names/puka_nacua_c.ogg",
+  "puka-nacua@bastion": "names/puka_nacua_b.ogg",
+  "bo-nix@corvus": "names/bo_nix_c.ogg",
+  "bo-nix@bastion": "names/bo_nix_b.ogg",
+  "bhayshul-tuten@corvus": "names/bhayshul_tuten_c.ogg",
+  "bhayshul-tuten@bastion": "names/bhayshul_tuten_b.ogg",
+  "davante-adams@corvus": "names/davante_adams_c.ogg",
+  "davante-adams@bastion": "names/davante_adams_b.ogg",
+  "christian-mccaffrey@corvus": "names/christian_mccaffrey_c.ogg",
+  "christian-mccaffrey@bastion": "names/christian_mccaffrey_b.ogg",
+  "nick-folk@corvus": "names/nick_folk_c.ogg",
+  "nick-folk@bastion": "names/nick_folk_b.ogg",
+  "justin-herbert@corvus": "names/justin_herbert_c.ogg",
+  "justin-herbert@bastion": "names/justin_herbert_b.ogg",
+  "tee-higgins@corvus": "names/tee_higgins_c.ogg",
+  "tee-higgins@bastion": "names/tee_higgins_b.ogg",
+  "rico-dowdle@corvus": "names/rico_dowdle_c.ogg",
+  "rico-dowdle@bastion": "names/rico_dowdle_b.ogg",
+  "kenny-gainwell@corvus": "names/kenny_gainwell_c.ogg",
+  "kenny-gainwell@bastion": "names/kenny_gainwell_b.ogg",
+  "javonte-williams@corvus": "names/javonte_williams_c.ogg",
+  "javonte-williams@bastion": "names/javonte_williams_b.ogg",
+  "trey-mcbride@corvus": "names/trey_mcbride_c.ogg",
+  "trey-mcbride@bastion": "names/trey_mcbride_b.ogg",
+  "george-pickens@corvus": "names/george_pickens_c.ogg",
+  "george-pickens@bastion": "names/george_pickens_b.ogg",
+  "parker-washington@corvus": "names/parker_washington_c.ogg",
+  "parker-washington@bastion": "names/parker_washington_b.ogg",
+  "jordan-addison@corvus": "names/jordan_addison_c.ogg",
+  "jordan-addison@bastion": "names/jordan_addison_b.ogg",
+  "jayden-daniels@corvus": "names/jayden_daniels_c.ogg",
+  "jayden-daniels@bastion": "names/jayden_daniels_b.ogg",
+  "jalen-coker@corvus": "names/jalen_coker_c.ogg",
+  "jalen-coker@bastion": "names/jalen_coker_b.ogg",
+  "will-reichard@corvus": "names/will_reichard_c.ogg",
+  "will-reichard@bastion": "names/will_reichard_b.ogg",
+  "cam-skattebo@corvus": "names/cam_skattebo_c.ogg",
+  "cam-skattebo@bastion": "names/cam_skattebo_b.ogg",
+  "matthew-stafford@corvus": "names/matthew_stafford_c.ogg",
+  "matthew-stafford@bastion": "names/matthew_stafford_b.ogg",
+  "deebo-samuel-sr@corvus": "names/deebo_samuel_sr_c.ogg",
+  "deebo-samuel-sr@bastion": "names/deebo_samuel_sr_b.ogg",
+  "devonta-smith@corvus": "names/devonta_smith_c.ogg",
+  "devonta-smith@bastion": "names/devonta_smith_b.ogg",
+  "jaylen-waddle@corvus": "names/jaylen_waddle_c.ogg",
+  "jaylen-waddle@bastion": "names/jaylen_waddle_b.ogg",
+  "pat-freiermuth@corvus": "names/pat_freiermuth_c.ogg",
+  "pat-freiermuth@bastion": "names/pat_freiermuth_b.ogg",
+  "kenneth-walker-iii@corvus": "names/kenneth_walker_iii_c.ogg",
+  "kenneth-walker-iii@bastion": "names/kenneth_walker_iii_b.ogg",
+  "christian-watson@corvus": "names/christian_watson_c.ogg",
+  "christian-watson@bastion": "names/christian_watson_b.ogg",
+  "jahmyr-gibbs@corvus": "names/jahmyr_gibbs_c.ogg",
+  "jahmyr-gibbs@bastion": "names/jahmyr_gibbs_b.ogg",
+  "tucker-kraft@corvus": "names/tucker_kraft_c.ogg",
+  "tucker-kraft@bastion": "names/tucker_kraft_b.ogg",
+  "tyler-shough@corvus": "names/tyler_shough_c.ogg",
+  "tyler-shough@bastion": "names/tyler_shough_b.ogg",
+  "juwan-johnson@corvus": "names/juwan_johnson_c.ogg",
+  "juwan-johnson@bastion": "names/juwan_johnson_b.ogg",
+  "bryce-young@corvus": "names/bryce_young_c.ogg",
+  "bryce-young@bastion": "names/bryce_young_b.ogg",
+  "dalton-kincaid@corvus": "names/dalton_kincaid_c.ogg",
+  "dalton-kincaid@bastion": "names/dalton_kincaid_b.ogg",
+  "dameon-pierce@corvus": "names/dameon_pierce_c.ogg",
+  "dameon-pierce@bastion": "names/dameon_pierce_b.ogg",
+  "tre-tucker@corvus": "names/tre_tucker_c.ogg",
+  "tre-tucker@bastion": "names/tre_tucker_b.ogg",
+  "spencer-shrader@corvus": "names/spencer_shrader_c.ogg",
+  "spencer-shrader@bastion": "names/spencer_shrader_b.ogg",
+  "jonah-coleman@corvus": "names/jonah_coleman_c.ogg",
+  "jonah-coleman@bastion": "names/jonah_coleman_b.ogg",
+  "trey-smack@corvus": "names/trey_smack_c.ogg",
+  "trey-smack@bastion": "names/trey_smack_b.ogg",
+  "romeo-doubs@corvus": "names/romeo_doubs_c.ogg",
+  "romeo-doubs@bastion": "names/romeo_doubs_b.ogg",
+  "denzel-boston@corvus": "names/denzel_boston_c.ogg",
+  "denzel-boston@bastion": "names/denzel_boston_b.ogg",
+  "t-j-hockenson@corvus": "names/t_j_hockenson_c.ogg",
+  "t-j-hockenson@bastion": "names/t_j_hockenson_b.ogg",
+  "seth-mcgowan@corvus": "names/seth_mcgowan_c.ogg",
+  "seth-mcgowan@bastion": "names/seth_mcgowan_b.ogg",
+  "devin-singletary@corvus": "names/devin_singletary_c.ogg",
+  "devin-singletary@bastion": "names/devin_singletary_b.ogg",
+  "samaje-perine@corvus": "names/samaje_perine_c.ogg",
+  "samaje-perine@bastion": "names/samaje_perine_b.ogg",
+  "ryan-flournoy@corvus": "names/ryan_flournoy_c.ogg",
+  "ryan-flournoy@bastion": "names/ryan_flournoy_b.ogg",
+  "elijah-mitchell@corvus": "names/elijah_mitchell_c.ogg",
+  "elijah-mitchell@bastion": "names/elijah_mitchell_b.ogg",
+  "elic-ayomanor@corvus": "names/elic_ayomanor_c.ogg",
+  "elic-ayomanor@bastion": "names/elic_ayomanor_b.ogg",
+  "corey-kiner@corvus": "names/corey_kiner_c.ogg",
+  "corey-kiner@bastion": "names/corey_kiner_b.ogg",
+  "chris-rodriguez-jr@corvus": "names/chris_rodriguez_jr_c.ogg",
+  "chris-rodriguez-jr@bastion": "names/chris_rodriguez_jr_b.ogg",
+  "darius-cooper@corvus": "names/darius_cooper_c.ogg",
+  "darius-cooper@bastion": "names/darius_cooper_b.ogg",
+  "mason-taylor@corvus": "names/mason_taylor_c.ogg",
+  "mason-taylor@bastion": "names/mason_taylor_b.ogg",
+  "keon-coleman@corvus": "names/keon_coleman_c.ogg",
+  "keon-coleman@bastion": "names/keon_coleman_b.ogg",
+  "kimani-vidal@corvus": "names/kimani_vidal_c.ogg",
+  "kimani-vidal@bastion": "names/kimani_vidal_b.ogg",
+  "marshawn-lloyd@corvus": "names/marshawn_lloyd_c.ogg",
+  "marshawn-lloyd@bastion": "names/marshawn_lloyd_b.ogg",
+  "kyle-williams@corvus": "names/kyle_williams_c.ogg",
+  "kyle-williams@bastion": "names/kyle_williams_b.ogg",
+  "tyler-bass@corvus": "names/tyler_bass_c.ogg",
+  "tyler-bass@bastion": "names/tyler_bass_b.ogg"
+ },
  "common": {
   "0@corvus": "common/num_0_c.ogg",
   "0@bastion": "common/num_0_b.ogg",
@@ -50443,6 +51522,150 @@
   "washington@bastion": "common/team_was_city_b.ogg",
   "the-commanders@corvus": "common/team_was_nick_c.ogg",
   "the-commanders@bastion": "common/team_was_nick_b.ogg"
+ },
+ "vocab": {
+  "a-flag@corvus": "vocab/flags_a_flag_c.ogg",
+  "a-flag@bastion": "vocab/flags_a_flag_b.ogg",
+  "false-start@corvus": "vocab/flags_false_start_c.ogg",
+  "false-start@bastion": "vocab/flags_false_start_b.ogg",
+  "offside@corvus": "vocab/flags_offside_c.ogg",
+  "offside@bastion": "vocab/flags_offside_b.ogg",
+  "defensive-offside@corvus": "vocab/flags_defensive_offside_c.ogg",
+  "defensive-offside@bastion": "vocab/flags_defensive_offside_b.ogg",
+  "encroachment@corvus": "vocab/flags_encroachment_c.ogg",
+  "encroachment@bastion": "vocab/flags_encroachment_b.ogg",
+  "neutral-zone-infraction@corvus": "vocab/flags_neutral_zone_infraction_c.ogg",
+  "neutral-zone-infraction@bastion": "vocab/flags_neutral_zone_infraction_b.ogg",
+  "delay-of-game@corvus": "vocab/flags_delay_of_game_c.ogg",
+  "delay-of-game@bastion": "vocab/flags_delay_of_game_b.ogg",
+  "illegal-formation@corvus": "vocab/flags_illegal_formation_c.ogg",
+  "illegal-formation@bastion": "vocab/flags_illegal_formation_b.ogg",
+  "illegal-shift@corvus": "vocab/flags_illegal_shift_c.ogg",
+  "illegal-shift@bastion": "vocab/flags_illegal_shift_b.ogg",
+  "illegal-motion@corvus": "vocab/flags_illegal_motion_c.ogg",
+  "illegal-motion@bastion": "vocab/flags_illegal_motion_b.ogg",
+  "too-many-men-on-the-field@corvus": "vocab/flags_too_many_men_on_the_field_c.ogg",
+  "too-many-men-on-the-field@bastion": "vocab/flags_too_many_men_on_the_field_b.ogg",
+  "holding@corvus": "vocab/flags_holding_c.ogg",
+  "holding@bastion": "vocab/flags_holding_b.ogg",
+  "offensive-holding@corvus": "vocab/flags_offensive_holding_c.ogg",
+  "offensive-holding@bastion": "vocab/flags_offensive_holding_b.ogg",
+  "defensive-holding@corvus": "vocab/flags_defensive_holding_c.ogg",
+  "defensive-holding@bastion": "vocab/flags_defensive_holding_b.ogg",
+  "pass-interference@corvus": "vocab/flags_pass_interference_c.ogg",
+  "pass-interference@bastion": "vocab/flags_pass_interference_b.ogg",
+  "defensive-pass-interference@corvus": "vocab/flags_defensive_pass_interference_c.ogg",
+  "defensive-pass-interference@bastion": "vocab/flags_defensive_pass_interference_b.ogg",
+  "offensive-pass-interference@corvus": "vocab/flags_offensive_pass_interference_c.ogg",
+  "offensive-pass-interference@bastion": "vocab/flags_offensive_pass_interference_b.ogg",
+  "roughing-the-passer@corvus": "vocab/flags_roughing_the_passer_c.ogg",
+  "roughing-the-passer@bastion": "vocab/flags_roughing_the_passer_b.ogg",
+  "unnecessary-roughness@corvus": "vocab/flags_unnecessary_roughness_c.ogg",
+  "unnecessary-roughness@bastion": "vocab/flags_unnecessary_roughness_b.ogg",
+  "face-mask@corvus": "vocab/flags_face_mask_c.ogg",
+  "face-mask@bastion": "vocab/flags_face_mask_b.ogg",
+  "horse-collar-tackle@corvus": "vocab/flags_horse_collar_tackle_c.ogg",
+  "horse-collar-tackle@bastion": "vocab/flags_horse_collar_tackle_b.ogg",
+  "personal-foul@corvus": "vocab/flags_personal_foul_c.ogg",
+  "personal-foul@bastion": "vocab/flags_personal_foul_b.ogg",
+  "targeting@corvus": "vocab/flags_targeting_c.ogg",
+  "targeting@bastion": "vocab/flags_targeting_b.ogg",
+  "unsportsmanlike-conduct@corvus": "vocab/flags_unsportsmanlike_conduct_c.ogg",
+  "unsportsmanlike-conduct@bastion": "vocab/flags_unsportsmanlike_conduct_b.ogg",
+  "taunting@corvus": "vocab/flags_taunting_c.ogg",
+  "taunting@bastion": "vocab/flags_taunting_b.ogg",
+  "intentional-grounding@corvus": "vocab/flags_intentional_grounding_c.ogg",
+  "intentional-grounding@bastion": "vocab/flags_intentional_grounding_b.ogg",
+  "ineligible-downfield-pass@corvus": "vocab/flags_ineligible_downfield_pass_c.ogg",
+  "ineligible-downfield-pass@bastion": "vocab/flags_ineligible_downfield_pass_b.ogg",
+  "illegal-contact@corvus": "vocab/flags_illegal_contact_c.ogg",
+  "illegal-contact@bastion": "vocab/flags_illegal_contact_b.ogg",
+  "illegal-use-of-hands@corvus": "vocab/flags_illegal_use_of_hands_c.ogg",
+  "illegal-use-of-hands@bastion": "vocab/flags_illegal_use_of_hands_b.ogg",
+  "illegal-block-in-the-back@corvus": "vocab/flags_illegal_block_in_the_back_c.ogg",
+  "illegal-block-in-the-back@bastion": "vocab/flags_illegal_block_in_the_back_b.ogg",
+  "illegal-forward-pass@corvus": "vocab/flags_illegal_forward_pass_c.ogg",
+  "illegal-forward-pass@bastion": "vocab/flags_illegal_forward_pass_b.ogg",
+  "roughing-the-kicker@corvus": "vocab/flags_roughing_the_kicker_c.ogg",
+  "roughing-the-kicker@bastion": "vocab/flags_roughing_the_kicker_b.ogg",
+  "running-into-the-kicker@corvus": "vocab/flags_running_into_the_kicker_c.ogg",
+  "running-into-the-kicker@bastion": "vocab/flags_running_into_the_kicker_b.ogg",
+  "tripping@corvus": "vocab/flags_tripping_c.ogg",
+  "tripping@bastion": "vocab/flags_tripping_b.ogg",
+  "clipping@corvus": "vocab/flags_clipping_c.ogg",
+  "clipping@bastion": "vocab/flags_clipping_b.ogg",
+  "chop-block@corvus": "vocab/flags_chop_block_c.ogg",
+  "chop-block@bastion": "vocab/flags_chop_block_b.ogg",
+  "lase@corvus": "vocab/members_lase_c.ogg",
+  "lase@bastion": "vocab/members_lase_b.ogg",
+  "greatness@corvus": "vocab/members_greatness_c.ogg",
+  "greatness@bastion": "vocab/members_greatness_b.ogg",
+  "deep@corvus": "vocab/depth_deep_c.ogg",
+  "deep@bastion": "vocab/depth_deep_b.ogg",
+  "short@corvus": "vocab/depth_short_c.ogg",
+  "short@bastion": "vocab/depth_short_b.ogg",
+  "left@corvus": "vocab/dir_left_c.ogg",
+  "left@bastion": "vocab/dir_left_b.ogg",
+  "right@corvus": "vocab/dir_right_c.ogg",
+  "right@bastion": "vocab/dir_right_b.ogg",
+  "middle@corvus": "vocab/dir_middle_c.ogg",
+  "middle@bastion": "vocab/dir_middle_b.ogg",
+  "up-the-middle@corvus": "vocab/lane_up_the_middle_c.ogg",
+  "up-the-middle@bastion": "vocab/lane_up_the_middle_b.ogg",
+  "around-left-end@corvus": "vocab/lane_around_left_end_c.ogg",
+  "around-left-end@bastion": "vocab/lane_around_left_end_b.ogg",
+  "around-right-end@corvus": "vocab/lane_around_right_end_c.ogg",
+  "around-right-end@bastion": "vocab/lane_around_right_end_b.ogg",
+  "off-left-tackle@corvus": "vocab/lane_off_left_tackle_c.ogg",
+  "off-left-tackle@bastion": "vocab/lane_off_left_tackle_b.ogg",
+  "off-right-tackle@corvus": "vocab/lane_off_right_tackle_c.ogg",
+  "off-right-tackle@bastion": "vocab/lane_off_right_tackle_b.ogg",
+  "behind-the-left-guard@corvus": "vocab/lane_behind_the_left_guard_c.ogg",
+  "behind-the-left-guard@bastion": "vocab/lane_behind_the_left_guard_b.ogg",
+  "behind-the-right-guard@corvus": "vocab/lane_behind_the_right_guard_c.ogg",
+  "behind-the-right-guard@bastion": "vocab/lane_behind_the_right_guard_b.ogg",
+  "first-quarter@corvus": "vocab/pqtr_first_quarter_c.ogg",
+  "first-quarter@bastion": "vocab/pqtr_first_quarter_b.ogg",
+  "second-quarter@corvus": "vocab/pqtr_second_quarter_c.ogg",
+  "second-quarter@bastion": "vocab/pqtr_second_quarter_b.ogg",
+  "third-quarter@corvus": "vocab/pqtr_third_quarter_c.ogg",
+  "third-quarter@bastion": "vocab/pqtr_third_quarter_b.ogg",
+  "fourth-quarter@corvus": "vocab/pqtr_fourth_quarter_c.ogg",
+  "fourth-quarter@bastion": "vocab/pqtr_fourth_quarter_b.ogg",
+  "overtime@corvus": "vocab/pqtr_overtime_c.ogg",
+  "overtime@bastion": "vocab/pqtr_overtime_b.ogg",
+  "game@corvus": "vocab/pqtr_game_c.ogg",
+  "game@bastion": "vocab/pqtr_game_b.ogg",
+  "first@corvus": "vocab/nth_first_c.ogg",
+  "first@bastion": "vocab/nth_first_b.ogg",
+  "second@corvus": "vocab/nth_second_c.ogg",
+  "second@bastion": "vocab/nth_second_b.ogg",
+  "third@corvus": "vocab/nth_third_c.ogg",
+  "third@bastion": "vocab/nth_third_b.ogg",
+  "fourth@corvus": "vocab/nth_fourth_c.ogg",
+  "fourth@bastion": "vocab/nth_fourth_b.ogg",
+  "fifth@corvus": "vocab/nth_fifth_c.ogg",
+  "fifth@bastion": "vocab/nth_fifth_b.ogg",
+  "sixth@corvus": "vocab/nth_sixth_c.ogg",
+  "sixth@bastion": "vocab/nth_sixth_b.ogg",
+  "seventh@corvus": "vocab/nth_seventh_c.ogg",
+  "seventh@bastion": "vocab/nth_seventh_b.ogg",
+  "eighth@corvus": "vocab/nth_eighth_c.ogg",
+  "eighth@bastion": "vocab/nth_eighth_b.ogg",
+  "ninth@corvus": "vocab/nth_ninth_c.ogg",
+  "ninth@bastion": "vocab/nth_ninth_b.ogg",
+  "tenth@corvus": "vocab/nth_tenth_c.ogg",
+  "tenth@bastion": "vocab/nth_tenth_b.ogg",
+  "eleventh@corvus": "vocab/nth_eleventh_c.ogg",
+  "eleventh@bastion": "vocab/nth_eleventh_b.ogg",
+  "twelfth@corvus": "vocab/nth_twelfth_c.ogg",
+  "twelfth@bastion": "vocab/nth_twelfth_b.ogg",
+  "to@corvus": "vocab/words_to_c.ogg",
+  "to@bastion": "vocab/words_to_b.ogg",
+  "hundred@corvus": "vocab/words_hundred_c.ogg",
+  "hundred@bastion": "vocab/words_hundred_b.ogg",
+  "quarter@corvus": "vocab/words_quarter_c.ogg",
+  "quarter@bastion": "vocab/words_quarter_b.ogg"
  },
  "reactions": {
   "b-roar-2": "reactions/bastion/b-roar-2.ogg",
