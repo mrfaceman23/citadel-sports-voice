@@ -1,10 +1,10 @@
 # Citadel Sports Voice: Status · v0.2.0 · updated 2026-10-31
 
 <!-- resume-card -->
-**Resume card** · updated 2026-11-03
+**Resume card** · updated 2026-11-04
 - **State:** ACTIVE (part of Citadel Sports)
 - **Version:** v0.2.0
-- **Last done:** Nov 1: vocab clips for fill-in stitching pushed (PR #3) plus voice clips.
+- **Last done:** Nov 3: members can have a spoken spelling; StarVrases and Endangered danimal added, clips rendered (PR #4).
 - **Next step:** Host the clips (a Vercel project for this repo) and point citadel-sports at it instead of the placeholder host.
 - **Blocked on:** Jordan's go to create the Vercel project.
 - **Done when:** Booth lines on the live site play without being skipped for missing clips.
