@@ -51,16 +51,22 @@ def slug(v):  # same as voice-director.js slug()
 
 
 def load_vocab(p):
-    """tools/vocab.json -> {set: [text]}. Plain words only (Kokoro pause rule: pacing never comes from punctuation)."""
+    """tools/vocab.json -> {set: [(display, say)]}. An entry is a plain string (said as written) or
+    {"text": "<display>", "say": "<spoken spelling>"}. The clip key comes from the display text (what the Director looks up);
+    Kokoro reads `say`. Plain words only (Kokoro pause rule: pacing never comes from punctuation)."""
     v = json.loads(Path(p).read_text(encoding='utf-8'))
     out = {}
     for k, xs in v.items():
         if k.startswith('_'):
             continue
-        for t in xs:
-            if re.search(r'[.,;:!?\[\]{}*]', t) or not slug(t):
-                sys.exit(f'vocab.json {k}: "{t}" must be plain words (no punctuation or marks)')
-        out[k] = list(dict.fromkeys(xs))
+        seen = {}
+        for x in xs:
+            t, say = (x['text'], x.get('say') or x['text']) if isinstance(x, dict) else (x, x)
+            for u in (t, say):
+                if re.search(r'[.,;:!?\[\]{}*]', u) or not slug(u):
+                    sys.exit(f'vocab.json {k}: "{u}" must be plain words (no punctuation or marks)')
+            seen.setdefault(t, say)
+        out[k] = list(seen.items())
     return out
 
 
@@ -465,11 +471,11 @@ def main():
     if 'vocab' in picked:  # vocab/<set>_<word>_c|b, key = slug (the Director looks in names, then vocab, then common)
         for name, words in load_vocab(a.vocab).items():
             vocab_counts[name] = len(words)
-            for w in words:
+            for w, say in words:  # key = display text; the clip says `say`
                 k = slug(w)
                 if f'{k}@corvus' in vocab_map:
                     continue
-                shared('vocab', f"{name}_{k.replace('-', '_')}", k, w, target=vocab_map)
+                shared('vocab', f"{name}_{k.replace('-', '_')}", k, say, target=vocab_map)
     if 'names' in picked:
         if not a.names:
             sys.exit('--only names needs --names roster.json')
