@@ -45,3 +45,6 @@ Each is made once per voice. Keys follow the Director's `slug()`: `josh-jacobs@c
 
 ## Testing without the PyTorch model
 `--engine onnx --onnx-dir <folder with kokoro-v1.0.onnx and voices-v1.0.bin>` uses kokoro-onnx (same voices, no word timings, so carriers are cut by lining up the carrier word against the sentence). Only for test machines; Jordan's PC uses the normal Kokoro engine.
+
+## Names said differently than written
+A vocab entry is normally a plain string. When a name is spelled one way and said another (a member called "StarVrases", said "Star ver rah says"; "Endangered danimal", said "Dan i mal"), write it as `{"text": "StarVrases", "say": "Star ver rah says"}` in `tools/vocab.json`. The manifest key is the slug of `text` (`starvrases@corvus`), which is what the Director looks up from the member's display name, while Kokoro reads `say`. Spell `say` out in syllables with spaces, plain words only (no punctuation or `[pause:]` marks, same rule as other vocab). Changing `say` later re-makes just that name's two clips.
