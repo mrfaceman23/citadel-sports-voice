@@ -51841,7 +51841,11 @@
   "tuesdays@corvus": "vocab/slots_tuesdays_c.ogg",
   "tuesdays@bastion": "vocab/slots_tuesdays_b.ogg",
   "wednesdays@corvus": "vocab/slots_wednesdays_c.ogg",
-  "wednesdays@bastion": "vocab/slots_wednesdays_b.ogg"
+  "wednesdays@bastion": "vocab/slots_wednesdays_b.ogg",
+  "starvrases@corvus": "vocab/members_starvrases_c.ogg",
+  "starvrases@bastion": "vocab/members_starvrases_b.ogg",
+  "endangered-danimal@corvus": "vocab/members_endangered_danimal_c.ogg",
+  "endangered-danimal@bastion": "vocab/members_endangered_danimal_b.ogg"
  },
  "reactions": {
   "b-roar-2": "reactions/bastion/b-roar-2.ogg",

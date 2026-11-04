@@ -17627,6 +17627,14 @@
 "sha": "65c505c4f0afab95",
 "ms": 598
 },
+"vocab/members_endangered_danimal_b": {
+"sha": "919106c57d2c9979",
+"ms": 842
+},
+"vocab/members_endangered_danimal_c": {
+"sha": "d115a26df61c2d6c",
+"ms": 862
+},
 "vocab/members_greatness_b": {
 "sha": "ba657fcb4c481486",
 "ms": 510
@@ -17642,6 +17650,14 @@
 "vocab/members_lase_c": {
 "sha": "f0872978b0734e1b",
 "ms": 425
+},
+"vocab/members_starvrases_b": {
+"sha": "67672a14a1193936",
+"ms": 1122
+},
+"vocab/members_starvrases_c": {
+"sha": "9126d7ea4c2eb268",
+"ms": 1178
 },
 "vocab/nth_eighth_b": {
 "sha": "28fab96c8659fbee",
